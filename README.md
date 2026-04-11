@@ -19,24 +19,23 @@ Both files have the same shape:
 
 ```json
 {
-  "generated_at": "2026-04-11T12:00:00Z",
+  "providers": {
+    "Googlebot": {
+      "description": "Google's primary search indexing crawler.",
+      "source_url": "https://developers.google.com/search/apis/ipranges/googlebot.json",
+      "user_agent_tokens": ["Googlebot", "Googlebot-Image"],
+      "rdns_patterns": ["crawl-*.googlebot.com", "*.google.com"],
+      "stats": { "ipv4_prefixes": 46, "ipv6_prefixes": 30 },
+      "ipv4": ["66.249.64.0/20"],
+      "ipv6": ["2001:4860:4801::/64"]
+    }
+  },
   "stats": {
     "providers_total": 14,
     "providers_ok": 14,
     "providers_failed": 0,
     "ipv4_prefixes_total": 853,
     "ipv6_prefixes_total": 187
-  },
-  "providers": {
-    "Googlebot": {
-      "description": "Google's primary search indexing crawler.",
-      "source_url": "https://developers.google.com/search/apis/ipranges/googlebot.json",
-      "user_agents": ["Googlebot", "Googlebot-Image"],
-      "rdns_patterns": ["crawl-*.googlebot.com", "*.google.com"],
-      "stats": { "ipv4_prefixes": 46, "ipv6_prefixes": 30 },
-      "ipv4": ["66.249.64.0/20"],
-      "ipv6": ["2001:4860:4801::/64"]
-    }
   }
 }
 ```
@@ -44,9 +43,9 @@ Both files have the same shape:
 A few things worth knowing:
 
 - Prefixes are aggregated. Adjacent and overlapping CIDR blocks get merged into their parent, single IPs are promoted to `/32` or `/128`, and the result is the smallest CIDR set covering the same address space.
-- `generated_at` is RFC3339 UTC.
-- If an upstream fetch failed, the provider is still emitted with empty arrays and a `fetch_error` field. That way consumers can spot gaps without having to diff against the previous run.
-- A provider with zero IPv4 *and* zero IPv6 prefixes counts as `providers_failed` in the top-level stats even when nothing technically errored. That catches silent upstream format changes (something we've been bitten by more than once).
+- Each commit in this repo is a refresh, so `git log` is the canonical timeline.
+- If an upstream fetch fails, the provider is still emitted with empty arrays, so the shape of the document stays stable.
+- Any provider with zero IPv4 *and* zero IPv6 prefixes counts as `providers_failed` in the top-level stats, whether the fetch errored or whether it returned a 200 with content we couldn't parse anymore. That's how silent upstream format changes surface (something we've been bitten by more than once).
 
 ## How to use
 
