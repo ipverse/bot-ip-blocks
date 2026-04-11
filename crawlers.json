@@ -8,6 +8,8 @@
         "*AhrefsBot*",
         "*AhrefsSiteAudit*"
       ],
+      "rdns_patterns": [],
+      "ip_list_authoritative": true,
       "ipv4": [
         "5.39.1.224/27",
         "5.39.109.160/27",
@@ -70,6 +72,8 @@
       "user_agent_patterns": [
         "*Amazonbot*"
       ],
+      "rdns_patterns": [],
+      "ip_list_authoritative": true,
       "ipv4": [
         "3.81.253.213/32",
         "3.89.170.186/32",
@@ -605,6 +609,7 @@
       "rdns_patterns": [
         "*.applebot.apple.com"
       ],
+      "ip_list_authoritative": true,
       "ipv4": [
         "17.22.237.0/24",
         "17.22.245.0/24",
@@ -635,6 +640,7 @@
         "msnbot-*.search.msn.com",
         "*.search.msn.com"
       ],
+      "ip_list_authoritative": true,
       "ipv4": [
         "13.66.139.0/24",
         "13.66.144.0/24",
@@ -674,6 +680,8 @@
       "user_agent_patterns": [
         "*ChatGPT-User*"
       ],
+      "rdns_patterns": [],
+      "ip_list_authoritative": true,
       "ipv4": [
         "4.151.71.176/28",
         "4.151.119.48/28",
@@ -893,6 +901,8 @@
         "*Claude-User*",
         "*Claude-SearchBot*"
       ],
+      "rdns_patterns": [],
+      "ip_list_authoritative": true,
       "ipv4": [
         "34.162.191.81/32",
         "34.162.230.222/32",
@@ -912,6 +922,7 @@
       "rdns_patterns": [
         "*.duckduckgo.com"
       ],
+      "ip_list_authoritative": true,
       "ipv4": [
         "4.144.182.50/32",
         "4.150.142.218/32",
@@ -1212,6 +1223,8 @@
       "user_agent_patterns": [
         "*GPTBot*"
       ],
+      "rdns_patterns": [],
+      "ip_list_authoritative": true,
       "ipv4": [
         "4.227.36.0/25",
         "20.125.66.80/28",
@@ -1251,6 +1264,7 @@
         "*.googlebot.com",
         "*.google.com"
       ],
+      "ip_list_authoritative": true,
       "ipv4": [
         "66.249.87.0/24",
         "66.249.89.0/24",
@@ -1317,6 +1331,7 @@
         "*.google.com",
         "*.googleusercontent.com"
       ],
+      "ip_list_authoritative": true,
       "ipv4": [
         "34.64.6.0/24",
         "34.98.136.0/24",
@@ -1575,6 +1590,7 @@
         "crawl-*.googlebot.com",
         "*.google.com"
       ],
+      "ip_list_authoritative": true,
       "ipv4": [
         "34.22.85.0/27",
         "34.64.82.64/28",
@@ -1663,6 +1679,8 @@
       "user_agent_patterns": [
         "*Kagibot*"
       ],
+      "rdns_patterns": [],
+      "ip_list_authoritative": true,
       "ipv4": [
         "35.212.27.76/32",
         "104.254.65.50/32",
@@ -1686,6 +1704,7 @@
         "*.tfbnw.net",
         "*.fbsv.net"
       ],
+      "ip_list_authoritative": false,
       "ipv4": [
         "31.13.24.0/21",
         "31.13.64.0/18",
@@ -1724,6 +1743,8 @@
       "user_agent_patterns": [
         "*OAI-SearchBot*"
       ],
+      "rdns_patterns": [],
+      "ip_list_authoritative": true,
       "ipv4": [
         "4.227.36.0/25",
         "20.14.99.96/28",
@@ -1768,6 +1789,8 @@
         "*PerplexityBot*",
         "*Perplexity-User*"
       ],
+      "rdns_patterns": [],
+      "ip_list_authoritative": true,
       "ipv4": [
         "3.211.124.183/32",
         "3.222.232.239/32",
@@ -1783,6 +1806,48 @@
         "107.20.236.150/32"
       ],
       "ipv6": []
+    },
+    "Yandex": {
+      "description": "Yandex's search crawlers (YandexBot, YandexImages, YandexMobileBot, …) — resolved via the full AS13238 (YANDEX) prefix aggregate. AS13238 covers all Yandex infrastructure (search, mail, ads, cloud), so IP membership is advisory only; consumers must verify via rDNS + user-agent.",
+      "website": "https://yandex.com",
+      "source_url": "https://raw.githubusercontent.com/ipverse/as-ip-blocks/refs/heads/master/as/13238/aggregated.json",
+      "user_agent_patterns": [
+        "*YandexBot*",
+        "*YandexImages*",
+        "*YandexMobileBot*",
+        "*YandexMetrika*",
+        "*YandexAccessibilityBot*",
+        "*YandexFavicons*",
+        "*YandexMarket*",
+        "*YandexNews*",
+        "*YandexMedia*",
+        "*YandexVideo*"
+      ],
+      "rdns_patterns": [
+        "*.yandex.ru",
+        "*.yandex.net",
+        "*.yandex.com"
+      ],
+      "ip_list_authoritative": false,
+      "ipv4": [
+        "5.45.192.0/18",
+        "5.255.192.0/18",
+        "37.9.64.0/18",
+        "37.140.128.0/18",
+        "77.88.0.0/18",
+        "84.252.160.0/19",
+        "87.250.224.0/19",
+        "92.255.112.0/20",
+        "93.158.128.0/18",
+        "95.108.128.0/17",
+        "141.8.128.0/18",
+        "178.154.128.0/18",
+        "185.32.187.0/24",
+        "213.180.192.0/19"
+      ],
+      "ipv6": [
+        "2a02:6b8::/29"
+      ]
     }
   }
 }

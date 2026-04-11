@@ -19,7 +19,8 @@
 | [Meta-ExternalAgent](https://www.meta.com) | 24 | 2 |
 | [OAI-SearchBot](https://openai.com) | 32 | 0 |
 | [PerplexityBot](https://www.perplexity.ai) | 12 | 0 |
-| **Total** | **1373** | **187** |
+| [Yandex](https://yandex.com) | 14 | 1 |
+| **Total** | **1387** | **188** |
 
 ## Monitoring
 

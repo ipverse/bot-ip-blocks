@@ -8,6 +8,8 @@
         "*Better Uptime Bot*",
         "*Better Stack*"
       ],
+      "rdns_patterns": [],
+      "ip_list_authoritative": true,
       "ipv4": [
         "5.161.90.230/32",
         "5.161.118.194/32",
@@ -55,6 +57,8 @@
         "*Checkly*",
         "*checklyhq*"
       ],
+      "rdns_patterns": [],
+      "ip_list_authoritative": true,
       "ipv4": [
         "3.6.20.243/32",
         "3.17.106.146/32",
@@ -252,6 +256,8 @@
         "*DatadogSynthetics*",
         "*Datadog/Synthetics*"
       ],
+      "rdns_patterns": [],
+      "ip_list_authoritative": true,
       "ipv4": [
         "3.1.36.99/32",
         "3.1.219.207/32",
@@ -376,6 +382,8 @@
       "user_agent_patterns": [
         "*HetrixTools*"
       ],
+      "rdns_patterns": [],
+      "ip_list_authoritative": true,
       "ipv4": [
         "2.56.188.250/32",
         "23.106.61.94/32",
@@ -491,6 +499,8 @@
         "*NewRelicPinger*",
         "*Synthetics*"
       ],
+      "rdns_patterns": [],
+      "ip_list_authoritative": true,
       "ipv4": [
         "3.38.229.128/25",
         "3.99.193.0/26",
@@ -562,6 +572,8 @@
         "*Oh Dear*",
         "*ohdear.app*"
       ],
+      "rdns_patterns": [],
+      "ip_list_authoritative": true,
       "ipv4": [
         "13.245.37.23/32",
         "15.185.161.92/32",
@@ -647,6 +659,8 @@
         "*Pingdom.com_bot*",
         "*PingdomTMS*"
       ],
+      "rdns_patterns": [],
+      "ip_list_authoritative": true,
       "ipv4": [
         "13.232.220.164/32",
         "23.22.2.46/32",
@@ -809,6 +823,8 @@
       "user_agent_patterns": [
         "*StatusCake*"
       ],
+      "rdns_patterns": [],
+      "ip_list_authoritative": true,
       "ipv4": [
         "13.48.110.214/32",
         "13.48.238.157/32",
@@ -1117,6 +1133,8 @@
       "user_agent_patterns": [
         "*UptimeRobot*"
       ],
+      "rdns_patterns": [],
+      "ip_list_authoritative": true,
       "ipv4": [
         "3.12.251.153/32",
         "3.20.63.178/32",
@@ -1346,6 +1364,8 @@
       "user_agent_patterns": [
         "*updown.io*"
       ],
+      "rdns_patterns": [],
+      "ip_list_authoritative": true,
       "ipv4": [
         "45.32.74.41/32",
         "45.32.107.181/32",
