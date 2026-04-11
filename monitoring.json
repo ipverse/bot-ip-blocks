@@ -1,5 +1,5 @@
 {
-  "providers": {
+  "services": {
     "Better Stack": {
       "description": "Better Stack (formerly Better Uptime) monitoring probes",
       "website": "https://betterstack.com",

@@ -2,7 +2,7 @@
 
 ## Crawlers
 
-| Provider | IPv4 prefixes | IPv6 prefixes |
+| Service | IPv4 prefixes | IPv6 prefixes |
 |---|---:|---:|
 | [Ahrefs](https://ahrefs.com) | 51 | 0 |
 | [Amazonbot](https://developer.amazon.com/amazonbot) | 520 | 0 |
@@ -24,7 +24,7 @@
 
 ## Monitoring
 
-| Provider | IPv4 prefixes | IPv6 prefixes |
+| Service | IPv4 prefixes | IPv6 prefixes |
 |---|---:|---:|
 | [Better Stack](https://betterstack.com) | 17 | 17 |
 | [Checkly](https://www.checklyhq.com) | 150 | 34 |

@@ -1,5 +1,5 @@
 {
-  "providers": {
+  "services": {
     "Ahrefs": {
       "description": "AhrefsBot — SEO analytics crawler operated by Ahrefs",
       "website": "https://ahrefs.com",
