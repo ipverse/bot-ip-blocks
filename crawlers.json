@@ -1,7 +1,7 @@
 {
   "providers": {
     "Ahrefs": {
-      "description": "AhrefsBot — SEO analytics crawler operated by Ahrefs.",
+      "description": "AhrefsBot — SEO analytics crawler operated by Ahrefs",
       "website": "https://ahrefs.com",
       "source_url": "https://api.ahrefs.com/v3/public/crawler-ips",
       "user_agent_patterns": [
@@ -66,7 +66,7 @@
       "ipv6": []
     },
     "Amazonbot": {
-      "description": "Amazon's web crawler used to train and enhance Alexa.",
+      "description": "Amazon's web crawler used to train and enhance Alexa",
       "website": "https://developer.amazon.com/amazonbot",
       "source_url": "https://developer.amazon.com/amazonbot/ip-addresses/",
       "user_agent_patterns": [
@@ -599,7 +599,7 @@
       "ipv6": []
     },
     "Applebot": {
-      "description": "Apple's web crawler used for Siri and Spotlight Suggestions.",
+      "description": "Apple's web crawler used for Siri and Spotlight Suggestions",
       "website": "https://www.apple.com",
       "source_url": "https://search.developer.apple.com/applebot.json",
       "user_agent_patterns": [
@@ -627,7 +627,7 @@
       "ipv6": []
     },
     "Bingbot": {
-      "description": "Microsoft Bing's primary search indexing crawler.",
+      "description": "Microsoft Bing's primary search indexing crawler",
       "website": "https://www.bing.com",
       "source_url": "https://www.bing.com/toolbox/bingbot.json",
       "user_agent_patterns": [
@@ -674,7 +674,7 @@
       "ipv6": []
     },
     "ChatGPT-User": {
-      "description": "OpenAI user-triggered fetcher used by ChatGPT browsing.",
+      "description": "OpenAI user-triggered fetcher used by ChatGPT browsing",
       "website": "https://openai.com",
       "source_url": "https://openai.com/chatgpt-user.json",
       "user_agent_patterns": [
@@ -893,7 +893,7 @@
       "ipv6": []
     },
     "ClaudeBot": {
-      "description": "Anthropic's web crawlers (ClaudeBot, Claude-User, Claude-SearchBot).",
+      "description": "Anthropic's web crawlers (ClaudeBot, Claude-User, Claude-SearchBot)",
       "website": "https://www.anthropic.com",
       "source_url": "https://claude.com/crawling/bots.json",
       "user_agent_patterns": [
@@ -912,7 +912,7 @@
       "ipv6": []
     },
     "DuckDuckBot": {
-      "description": "DuckDuckGo's web crawler.",
+      "description": "DuckDuckGo's web crawler",
       "website": "https://duckduckgo.com",
       "source_url": "https://duckduckgo.com/duckduckbot",
       "user_agent_patterns": [
@@ -1217,7 +1217,7 @@
       "ipv6": []
     },
     "GPTBot": {
-      "description": "OpenAI's web crawler used to improve future models.",
+      "description": "OpenAI's web crawler used to improve future models",
       "website": "https://openai.com",
       "source_url": "https://openai.com/gptbot.json",
       "user_agent_patterns": [
@@ -1247,7 +1247,7 @@
       "ipv6": []
     },
     "Google (special)": {
-      "description": "Google's special-case crawlers (AdsBot, Mediapartners, etc.).",
+      "description": "Google's special-case crawlers (AdsBot, Mediapartners, etc.)",
       "website": "https://www.google.com",
       "source_url": "https://developers.google.com/search/apis/ipranges/special-crawlers.json",
       "user_agent_patterns": [
@@ -1317,7 +1317,7 @@
       ]
     },
     "Google (user-triggered)": {
-      "description": "Google user-triggered fetchers (Site Verifier, Read Aloud, etc.).",
+      "description": "Google user-triggered fetchers (Site Verifier, Read Aloud, etc.)",
       "website": "https://www.google.com",
       "source_url": "https://developers.google.com/search/apis/ipranges/user-triggered-fetchers.json",
       "user_agent_patterns": [
@@ -1575,7 +1575,7 @@
       ]
     },
     "Googlebot": {
-      "description": "Google's primary search indexing crawler.",
+      "description": "Google's primary search indexing crawler",
       "website": "https://www.google.com",
       "source_url": "https://developers.google.com/search/apis/ipranges/googlebot.json",
       "user_agent_patterns": [
@@ -1673,7 +1673,7 @@
       ]
     },
     "Kagibot": {
-      "description": "Kagi search engine crawler.",
+      "description": "Kagi search engine crawler",
       "website": "https://kagi.com",
       "source_url": "https://kagi.com/bot",
       "user_agent_patterns": [
@@ -1690,7 +1690,7 @@
       "ipv6": []
     },
     "Meta-ExternalAgent": {
-      "description": "Meta's crawlers (meta-externalagent, meta-externalfetcher, facebookexternalhit, FacebookBot) — resolved via the full AS32934 (FACEBOOK) prefix list.",
+      "description": "Meta's crawlers (meta-externalagent, meta-externalfetcher, facebookexternalhit, FacebookBot) — resolved via the full AS32934 (FACEBOOK) prefix list",
       "website": "https://www.meta.com",
       "source_url": "https://raw.githubusercontent.com/ipverse/as-ip-blocks/refs/heads/master/as/32934/aggregated.json",
       "user_agent_patterns": [
@@ -1737,7 +1737,7 @@
       ]
     },
     "OAI-SearchBot": {
-      "description": "OpenAI's SearchGPT crawler for search results.",
+      "description": "OpenAI's SearchGPT crawler for search results",
       "website": "https://openai.com",
       "source_url": "https://openai.com/searchbot.json",
       "user_agent_patterns": [
@@ -1782,7 +1782,7 @@
       "ipv6": []
     },
     "PerplexityBot": {
-      "description": "Perplexity AI crawlers: PerplexityBot (indexing) + Perplexity-User (answer-time fetch).",
+      "description": "Perplexity AI crawlers: PerplexityBot (indexing) + Perplexity-User (answer-time fetch)",
       "website": "https://www.perplexity.ai",
       "source_url": "https://www.perplexity.com/perplexitybot.json",
       "user_agent_patterns": [
@@ -1808,7 +1808,7 @@
       "ipv6": []
     },
     "Yandex": {
-      "description": "Yandex's search crawlers (YandexBot, YandexImages, YandexMobileBot, …) — resolved via the full AS13238 (YANDEX) prefix aggregate. AS13238 covers all Yandex infrastructure (search, mail, ads, cloud), so IP membership is advisory only; consumers must verify via rDNS + user-agent.",
+      "description": "Yandex's search crawlers (YandexBot, YandexImages, YandexMobileBot, …) — resolved via the full AS13238 (YANDEX) prefix aggregate. AS13238 covers all Yandex infrastructure (search, mail, ads, cloud), so IP membership is advisory only; consumers must verify via rDNS + user-agent",
       "website": "https://yandex.com",
       "source_url": "https://raw.githubusercontent.com/ipverse/as-ip-blocks/refs/heads/master/as/13238/aggregated.json",
       "user_agent_patterns": [
