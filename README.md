@@ -1,6 +1,6 @@
 # bot-ip-blocks
 
-Daily-updated IP prefix lists for well-known **web crawlers** and **uptime monitoring probes**.
+IP prefix lists for well-known **web crawlers** and **uptime monitoring probes**.
 The data comes straight from each provider's own published IP list, gets normalized, and is collapsed down to the smallest set of CIDR blocks that still covers the same addresses.
 No APIs, no databases, just files you can `curl`.
 
