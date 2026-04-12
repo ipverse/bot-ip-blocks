@@ -75,7 +75,3 @@ curl https://raw.githubusercontent.com/ipverse/bot-ip-blocks/master/monitoring.j
 ## Questions or issues?
 
 Head over to the [feedback repository](https://github.com/ipverse/feedback) if you have questions, issues, or suggestions.
-
-## License
-
-This data is released under [CC0 1.0 Universal](LICENSE).
