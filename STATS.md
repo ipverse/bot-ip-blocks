@@ -2,8 +2,6 @@
 
 ## Crawlers
 
-Services failed: **1**
-
 | Service | IPv4 prefixes | IPv6 prefixes | Last changed |
 |---|---:|---:|---|
 | [Ahrefs](https://ahrefs.com) | 51 | 0 | 2026-04-12 |
@@ -11,7 +9,7 @@ Services failed: **1**
 | [Applebot](https://www.apple.com) | 12 | 0 | 2026-04-12 |
 | [Bingbot](https://www.bing.com) | 28 | 0 | 2026-04-12 |
 | [ChatGPT-User](https://openai.com) | 206 | 0 | 2026-04-12 |
-| [ClaudeBot](https://www.anthropic.com) | 0 | 0 | 2026-04-12 |
+| [ClaudeBot](https://www.anthropic.com) | 4 | 0 | 2026-04-12 |
 | [Common Crawl](https://commoncrawl.org) | 4 | 1 | 2026-04-12 |
 | [DuckDuckBot](https://duckduckgo.com) | 289 | 0 | 2026-04-12 |
 | [GPTBot](https://openai.com) | 17 | 0 | 2026-04-12 |
@@ -25,7 +23,7 @@ Services failed: **1**
 | [SE Ranking](https://seranking.com) | 21 | 0 | 2026-04-12 |
 | [SERankingBacklinksBot](https://seranking.com) | 60 | 35 | 2026-04-12 |
 | [Yandex](https://yandex.com) | 14 | 1 | 2026-04-12 |
-| **Total** | **1467** | **224** | |
+| **Total** | **1471** | **224** | |
 
 ## Monitoring
 

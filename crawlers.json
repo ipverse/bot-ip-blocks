@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-12T05:38:36Z",
+  "generated_at": "2026-04-12T06:28:08Z",
   "services": {
     "Ahrefs": {
       "description": "AhrefsBot — SEO analytics crawler operated by Ahrefs",
@@ -901,7 +901,7 @@
       "description": "Anthropic's web crawlers (ClaudeBot, Claude-User, Claude-SearchBot)",
       "website": "https://www.anthropic.com",
       "source_url": "https://claude.com/crawling/bots.json",
-      "last_changed_at": "2026-04-12T05:29:11Z",
+      "last_changed_at": "2026-04-12T06:28:08Z",
       "user_agent_patterns": [
         "*ClaudeBot*",
         "*Claude-User*",
@@ -909,7 +909,12 @@
       ],
       "rdns_patterns": [],
       "ip_list_authoritative": true,
-      "ipv4": [],
+      "ipv4": [
+        "34.162.191.81/32",
+        "34.162.230.222/32",
+        "34.162.244.71/32",
+        "216.73.216.0/22"
+      ],
       "ipv6": []
     },
     "Common Crawl": {
