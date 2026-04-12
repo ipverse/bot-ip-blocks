@@ -1,9 +1,11 @@
 {
+  "generated_at": "2026-04-12T05:29:11Z",
   "services": {
     "Ahrefs": {
       "description": "AhrefsBot — SEO analytics crawler operated by Ahrefs",
       "website": "https://ahrefs.com",
       "source_url": "https://api.ahrefs.com/v3/public/crawler-ips",
+      "last_changed_at": "2026-04-12T05:29:11Z",
       "user_agent_patterns": [
         "*AhrefsBot*",
         "*AhrefsSiteAudit*"
@@ -69,6 +71,7 @@
       "description": "Amazon's web crawler used to train and enhance Alexa",
       "website": "https://developer.amazon.com/amazonbot",
       "source_url": "https://developer.amazon.com/amazonbot/ip-addresses/",
+      "last_changed_at": "2026-04-12T05:29:11Z",
       "user_agent_patterns": [
         "*Amazonbot*"
       ],
@@ -602,6 +605,7 @@
       "description": "Apple's web crawler used for Siri and Spotlight Suggestions",
       "website": "https://www.apple.com",
       "source_url": "https://search.developer.apple.com/applebot.json",
+      "last_changed_at": "2026-04-12T05:29:11Z",
       "user_agent_patterns": [
         "*Applebot*",
         "*Applebot-Extended*"
@@ -630,6 +634,7 @@
       "description": "Microsoft Bing's primary search indexing crawler",
       "website": "https://www.bing.com",
       "source_url": "https://www.bing.com/toolbox/bingbot.json",
+      "last_changed_at": "2026-04-12T05:29:11Z",
       "user_agent_patterns": [
         "*bingbot*",
         "*BingPreview*",
@@ -677,6 +682,7 @@
       "description": "OpenAI user-triggered fetcher used by ChatGPT browsing",
       "website": "https://openai.com",
       "source_url": "https://openai.com/chatgpt-user.json",
+      "last_changed_at": "2026-04-12T05:29:11Z",
       "user_agent_patterns": [
         "*ChatGPT-User*"
       ],
@@ -896,6 +902,7 @@
       "description": "Anthropic's web crawlers (ClaudeBot, Claude-User, Claude-SearchBot)",
       "website": "https://www.anthropic.com",
       "source_url": "https://claude.com/crawling/bots.json",
+      "last_changed_at": "2026-04-12T05:29:11Z",
       "user_agent_patterns": [
         "*ClaudeBot*",
         "*Claude-User*",
@@ -903,18 +910,36 @@
       ],
       "rdns_patterns": [],
       "ip_list_authoritative": true,
-      "ipv4": [
-        "34.162.191.81/32",
-        "34.162.230.222/32",
-        "34.162.244.71/32",
-        "216.73.216.0/22"
-      ],
+      "ipv4": [],
       "ipv6": []
+    },
+    "Common Crawl": {
+      "description": "Common Crawl Foundation's CCBot — builds the public Common Crawl web corpus",
+      "website": "https://commoncrawl.org",
+      "source_url": "https://index.commoncrawl.org/ccbot.json",
+      "last_changed_at": "2026-04-12T05:29:11Z",
+      "user_agent_patterns": [
+        "*CCBot*"
+      ],
+      "rdns_patterns": [
+        "*.crawl.commoncrawl.org"
+      ],
+      "ip_list_authoritative": true,
+      "ipv4": [
+        "18.97.9.168/29",
+        "18.97.14.80/29",
+        "18.97.14.88/30",
+        "98.85.178.216/32"
+      ],
+      "ipv6": [
+        "2600:1f28:365:80b0::/60"
+      ]
     },
     "DuckDuckBot": {
       "description": "DuckDuckGo's web crawler",
       "website": "https://duckduckgo.com",
       "source_url": "https://duckduckgo.com/duckduckbot",
+      "last_changed_at": "2026-04-12T05:29:11Z",
       "user_agent_patterns": [
         "*DuckDuckBot*",
         "*DuckAssistBot*"
@@ -1220,6 +1245,7 @@
       "description": "OpenAI's web crawler used to improve future models",
       "website": "https://openai.com",
       "source_url": "https://openai.com/gptbot.json",
+      "last_changed_at": "2026-04-12T05:29:11Z",
       "user_agent_patterns": [
         "*GPTBot*"
       ],
@@ -1250,6 +1276,7 @@
       "description": "Google's special-case crawlers (AdsBot, Mediapartners, etc.)",
       "website": "https://www.google.com",
       "source_url": "https://developers.google.com/search/apis/ipranges/special-crawlers.json",
+      "last_changed_at": "2026-04-12T05:29:11Z",
       "user_agent_patterns": [
         "*APIs-Google*",
         "*AdsBot-Google*",
@@ -1320,6 +1347,7 @@
       "description": "Google user-triggered fetchers (Site Verifier, Read Aloud, etc.)",
       "website": "https://www.google.com",
       "source_url": "https://developers.google.com/search/apis/ipranges/user-triggered-fetchers.json",
+      "last_changed_at": "2026-04-12T05:29:11Z",
       "user_agent_patterns": [
         "*Google-Site-Verification*",
         "*Google Publisher Center*",
@@ -1578,6 +1606,7 @@
       "description": "Google's primary search indexing crawler",
       "website": "https://www.google.com",
       "source_url": "https://developers.google.com/search/apis/ipranges/googlebot.json",
+      "last_changed_at": "2026-04-12T05:29:11Z",
       "user_agent_patterns": [
         "*Googlebot*",
         "*Googlebot-Image*",
@@ -1676,6 +1705,7 @@
       "description": "Kagi search engine crawler",
       "website": "https://kagi.com",
       "source_url": "https://kagi.com/bot",
+      "last_changed_at": "2026-04-12T05:29:11Z",
       "user_agent_patterns": [
         "*Kagibot*"
       ],
@@ -1693,6 +1723,7 @@
       "description": "Meta's crawlers (meta-externalagent, meta-externalfetcher, facebookexternalhit, FacebookBot) — resolved via the full AS32934 (FACEBOOK) prefix list",
       "website": "https://www.meta.com",
       "source_url": "https://raw.githubusercontent.com/ipverse/as-ip-blocks/refs/heads/master/as/32934/aggregated.json",
+      "last_changed_at": "2026-04-12T05:29:11Z",
       "user_agent_patterns": [
         "*meta-externalagent*",
         "*meta-externalfetcher*",
@@ -1740,6 +1771,7 @@
       "description": "OpenAI's SearchGPT crawler for search results",
       "website": "https://openai.com",
       "source_url": "https://openai.com/searchbot.json",
+      "last_changed_at": "2026-04-12T05:29:11Z",
       "user_agent_patterns": [
         "*OAI-SearchBot*"
       ],
@@ -1785,6 +1817,7 @@
       "description": "Perplexity AI crawlers: PerplexityBot (indexing) + Perplexity-User (answer-time fetch)",
       "website": "https://www.perplexity.ai",
       "source_url": "https://www.perplexity.com/perplexitybot.json",
+      "last_changed_at": "2026-04-12T05:29:11Z",
       "user_agent_patterns": [
         "*PerplexityBot*",
         "*Perplexity-User*"
@@ -1807,10 +1840,160 @@
       ],
       "ipv6": []
     },
+    "SE Ranking": {
+      "description": "SE Ranking's website audit crawler (SEBot-WA) — fetched via Wayback Machine; source page is behind Cloudflare",
+      "website": "https://seranking.com",
+      "source_url": "https://web.archive.org/web/https://help.seranking.com/hc/en-us/articles/16335355751196-Verifying-SE-Ranking-Crawler-FAQ",
+      "last_changed_at": "2026-04-12T05:29:11Z",
+      "user_agent_patterns": [
+        "*SEBot-WA*"
+      ],
+      "rdns_patterns": [
+        "*.sr-srv.net"
+      ],
+      "ip_list_authoritative": true,
+      "ipv4": [
+        "5.9.48.208/32",
+        "46.4.23.25/32",
+        "46.4.81.149/32",
+        "123.237.76.144/32",
+        "136.243.103.47/32",
+        "136.243.147.42/32",
+        "138.201.137.152/32",
+        "142.132.128.37/32",
+        "142.132.195.214/32",
+        "144.76.14.242/32",
+        "144.76.15.151/32",
+        "144.76.69.81/32",
+        "144.76.159.253/32",
+        "144.76.164.62/32",
+        "144.76.237.123/32",
+        "162.55.94.175/32",
+        "162.55.94.176/32",
+        "162.55.244.19/32",
+        "168.119.64.236/32",
+        "168.119.139.232/32",
+        "176.9.74.49/32"
+      ],
+      "ipv6": []
+    },
+    "SERankingBacklinksBot": {
+      "description": "SE Ranking's backlink discovery crawler — fetched via Wayback Machine; source page is behind Cloudflare",
+      "website": "https://seranking.com",
+      "source_url": "https://web.archive.org/web/https://help.seranking.com/hc/en-us/articles/23020353159964-SERankingBacklinksBot-Crawler",
+      "last_changed_at": "2026-04-12T05:29:11Z",
+      "user_agent_patterns": [
+        "*SERankingBacklinksBot*"
+      ],
+      "rdns_patterns": [
+        "*.seranking.com"
+      ],
+      "ip_list_authoritative": true,
+      "ipv4": [
+        "5.9.120.8/32",
+        "5.9.120.41/32",
+        "5.9.120.88/32",
+        "5.9.120.100/32",
+        "5.9.120.135/32",
+        "5.9.120.220/32",
+        "37.27.51.131/32",
+        "37.27.51.139/32",
+        "37.27.51.140/30",
+        "37.27.51.144/30",
+        "37.27.55.74/32",
+        "37.27.55.110/32",
+        "37.27.59.134/32",
+        "37.27.59.176/32",
+        "65.109.100.155/32",
+        "65.109.100.157/32",
+        "95.217.114.145/32",
+        "95.217.114.159/32",
+        "95.217.114.173/32",
+        "95.217.114.179/32",
+        "135.181.3.228/32",
+        "135.181.3.246/32",
+        "135.181.166.38/32",
+        "135.181.166.58/32",
+        "144.76.19.3/32",
+        "144.76.19.9/32",
+        "144.76.19.11/32",
+        "144.76.19.24/32",
+        "144.76.19.27/32",
+        "144.76.19.28/32",
+        "144.76.19.70/32",
+        "144.76.19.72/32",
+        "144.76.19.75/32",
+        "144.76.19.146/31",
+        "144.76.19.148/31",
+        "144.76.19.157/32",
+        "144.76.32.72/32",
+        "144.76.32.76/32",
+        "144.76.32.94/32",
+        "144.76.32.114/32",
+        "144.76.32.117/32",
+        "144.76.32.120/32",
+        "144.76.32.140/32",
+        "144.76.32.145/32",
+        "144.76.32.148/32",
+        "144.76.32.151/32",
+        "144.76.32.187/32",
+        "144.76.32.188/31",
+        "144.76.32.190/32",
+        "144.76.32.235/32",
+        "144.76.32.236/30",
+        "144.76.32.241/32",
+        "144.76.32.242/32",
+        "144.76.32.246/32",
+        "144.76.32.248/32",
+        "144.76.33.36/32",
+        "144.76.33.42/32",
+        "144.76.33.48/32",
+        "144.76.33.52/32",
+        "144.76.33.62/32"
+      ],
+      "ipv6": [
+        "2a01:4f8:162:7002::2/128",
+        "2a01:4f8:162:7064::2/128",
+        "2a01:4f8:162:70c7::2/128",
+        "2a01:4f8:191:1113::2/128",
+        "2a01:4f8:191:1114::2/128",
+        "2a01:4f8:191:1118::2/128",
+        "2a01:4f8:191:118b::2/128",
+        "2a01:4f8:191:118c::2/128",
+        "2a01:4f8:191:118d::2/128",
+        "2a01:4f8:191:118f::2/128",
+        "2a01:4f8:191:2346::2/128",
+        "2a01:4f8:191:234e::2/128",
+        "2a01:4f8:191:2362::2/128",
+        "2a01:4f8:191:23a1::2/128",
+        "2a01:4f8:191:23a2::2/128",
+        "2a01:4f8:191:23a3::2/128",
+        "2a01:4f8:191:23a4::2/128",
+        "2a01:4f8:191:23e6::2/128",
+        "2a01:4f8:191:23ec::2/128",
+        "2a01:4f8:191:23f0::2/128",
+        "2a01:4f8:191:23f1::2/128",
+        "2a01:4f8:191:23f2::2/128",
+        "2a01:4f8:191:23f5::2/128",
+        "2a01:4f8:191:23f9::2/128",
+        "2a01:4f9:3a:1da6::2/128",
+        "2a01:4f9:4a:301f::2/128",
+        "2a01:4f9:4a:3020::2/128",
+        "2a01:4f9:4b:50a0::2/128",
+        "2a01:4f9:3080:25a9::2/128",
+        "2a01:4f9:3081:3a29::2/128",
+        "2a01:4f9:3081:3a2a::2/128",
+        "2a01:4f9:3081:3a2b::2/128",
+        "2a01:4f9:3081:3a2c::2/128",
+        "2a01:4f9:3081:3df0::2/128",
+        "2a01:4f9:3081:4214::2/128"
+      ]
+    },
     "Yandex": {
       "description": "Yandex's search crawlers (YandexBot, YandexImages, YandexMobileBot, …) — resolved via the full AS13238 (YANDEX) prefix aggregate. AS13238 covers all Yandex infrastructure (search, mail, ads, cloud), so IP membership is advisory only; consumers must verify via rDNS + user-agent",
       "website": "https://yandex.com",
       "source_url": "https://raw.githubusercontent.com/ipverse/as-ip-blocks/refs/heads/master/as/13238/aggregated.json",
+      "last_changed_at": "2026-04-12T05:29:11Z",
       "user_agent_patterns": [
         "*YandexBot*",
         "*YandexImages*",

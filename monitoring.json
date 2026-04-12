@@ -1,9 +1,11 @@
 {
+  "generated_at": "2026-04-12T05:29:13Z",
   "services": {
     "Better Stack": {
       "description": "Better Stack (formerly Better Uptime) monitoring probes",
       "website": "https://betterstack.com",
       "source_url": "https://uptime.betterstack.com/ips.txt",
+      "last_changed_at": "2026-04-12T05:29:13Z",
       "user_agent_patterns": [
         "*Better Uptime Bot*",
         "*Better Stack*"
@@ -53,6 +55,7 @@
       "description": "Checkly synthetic monitoring probes (IPv4 + IPv6)",
       "website": "https://www.checklyhq.com",
       "source_url": "https://api.checklyhq.com/v1/static-ips",
+      "last_changed_at": "2026-04-12T05:29:13Z",
       "user_agent_patterns": [
         "*Checkly*",
         "*checklyhq*"
@@ -252,6 +255,7 @@
       "description": "Datadog Synthetics monitoring probes",
       "website": "https://www.datadoghq.com",
       "source_url": "https://ip-ranges.datadoghq.com/",
+      "last_changed_at": "2026-04-12T05:29:13Z",
       "user_agent_patterns": [
         "*DatadogSynthetics*",
         "*Datadog/Synthetics*"
@@ -379,6 +383,7 @@
       "description": "HetrixTools uptime monitoring probes",
       "website": "https://hetrixtools.com",
       "source_url": "https://hetrixtools.com/resources/uptime-monitor-ips.txt",
+      "last_changed_at": "2026-04-12T05:29:13Z",
       "user_agent_patterns": [
         "*HetrixTools*"
       ],
@@ -495,6 +500,7 @@
       "description": "New Relic Synthetics monitoring probes",
       "website": "https://newrelic.com",
       "source_url": "https://s3.amazonaws.com/nr-synthetics-assets/nat-ip-dnsname/production/ip-ranges.json",
+      "last_changed_at": "2026-04-12T05:29:13Z",
       "user_agent_patterns": [
         "*NewRelicPinger*",
         "*Synthetics*"
@@ -568,6 +574,7 @@
       "description": "Oh Dear uptime monitoring probes",
       "website": "https://ohdear.app",
       "source_url": "https://ohdear.app/used-ips",
+      "last_changed_at": "2026-04-12T05:29:13Z",
       "user_agent_patterns": [
         "*Oh Dear*",
         "*ohdear.app*"
@@ -655,6 +662,7 @@
       "description": "Pingdom uptime monitoring probes (IPv4 + IPv6)",
       "website": "https://www.pingdom.com",
       "source_url": "https://my.pingdom.com/probes/ipv4",
+      "last_changed_at": "2026-04-12T05:29:13Z",
       "user_agent_patterns": [
         "*Pingdom.com_bot*",
         "*PingdomTMS*"
@@ -820,6 +828,7 @@
       "description": "StatusCake uptime monitoring probes",
       "website": "https://www.statuscake.com",
       "source_url": "https://app.statuscake.com/Workfloor/Locations.php?format=json",
+      "last_changed_at": "2026-04-12T05:29:13Z",
       "user_agent_patterns": [
         "*StatusCake*"
       ],
@@ -1130,6 +1139,7 @@
       "description": "UptimeRobot uptime monitoring probes (IPv4 + IPv6)",
       "website": "https://uptimerobot.com",
       "source_url": "https://uptimerobot.com/inc/files/ips/IPv4.txt",
+      "last_changed_at": "2026-04-12T05:29:13Z",
       "user_agent_patterns": [
         "*UptimeRobot*"
       ],
@@ -1361,6 +1371,7 @@
       "description": "updown.io uptime monitoring probes",
       "website": "https://updown.io",
       "source_url": "https://updown.io/api/nodes/ips",
+      "last_changed_at": "2026-04-12T05:29:13Z",
       "user_agent_patterns": [
         "*updown.io*"
       ],
