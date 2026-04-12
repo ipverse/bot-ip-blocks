@@ -11,7 +11,7 @@ Two datasets:
 - **`crawlers.json`** for search engines, SEO bots, and AI/LLM crawlers (Googlebot, Bingbot, Ahrefs, GPTBot, ClaudeBot, PerplexityBot, Yandex, etc.)
 - **`monitoring.json`** for third-party uptime and synthetic monitoring probes (Pingdom, UptimeRobot, Datadog, New Relic, StatusCake, Better Stack, updown.io)
 
-Each service entry includes the IPv4 and IPv6 prefixes plus the things you actually need to recognize the bot from a request: glob patterns for the User-Agent header and, where the provider supports it, reverse-DNS hostname patterns. Git history lets you track how each service's ranges drift over time.
+Each service entry includes the IPv4 and IPv6 prefixes plus the things you actually need to recognize the bot from a request: glob patterns for the User-Agent header and, where the provider supports it, reverse-DNS hostname patterns. A per-service `last_changed_at` timestamp tells you when the IP list last changed, and a top-level `generated_at` records when the file was built.
 
 A human-readable rollup of service counts and totals lives in [STATS.md](STATS.md).
 
@@ -21,10 +21,13 @@ Both files have the same shape:
 
 ```json
 {
+  "generated_at": "2026-04-12T05:13:10Z",
   "services": {
     "Googlebot": {
       "description": "Google's primary search indexing crawler.",
+      "website": "https://www.google.com",
       "source_url": "https://developers.google.com/search/apis/ipranges/googlebot.json",
+      "last_changed_at": "2026-04-10T12:00:00Z",
       "user_agent_patterns": ["*Googlebot*", "*Googlebot-Image*"],
       "rdns_patterns": ["crawl-*.googlebot.com", "*.google.com"],
       "ip_list_authoritative": true,
@@ -40,7 +43,8 @@ A few things worth knowing:
 - Prefixes are aggregated. Adjacent and overlapping CIDR blocks get merged into their parent, single IPs are promoted to `/32` or `/128`, and the result is the smallest CIDR set covering the same address space.
 - `user_agent_patterns` and `rdns_patterns` are glob patterns (`*` wildcard), not literal strings. Match them against the request UA header or the reverse DNS name with any standard glob library.
 - `ip_list_authoritative` tells you whether IP membership alone is a reliable identifier for the bot. Most services use crawler-specific lists published upstream and are `true`. A handful — currently Meta-ExternalAgent and Yandex — use the provider's full ASN aggregate, which covers non-crawler traffic (mail, ads, cloud, edge). For those, treat the IP list as a prefilter and confirm the match with `user_agent_patterns` and a forward-confirmed reverse-DNS check against `rdns_patterns` before acting on it.
-- Each commit in this repo is a refresh, so `git log` is the canonical timeline.
+- `last_changed_at` is set per service and records when the service's IP list last changed (RFC 3339 UTC). If the upstream IPs haven't moved, the timestamp stays the same across refreshes.
+- `generated_at` at the top level records when the file was built (RFC 3339 UTC).
 - If an upstream fetch fails, the service is still emitted with empty arrays, so the shape of the document stays stable. STATS.md is the place to look for which service came up empty.
 
 ## How to use
