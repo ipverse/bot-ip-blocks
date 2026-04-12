@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-12T05:33:55Z",
+  "generated_at": "2026-04-12T05:37:51Z",
   "services": {
     "Ahrefs": {
       "description": "AhrefsBot — SEO analytics crawler operated by Ahrefs",
@@ -71,7 +71,7 @@
       "description": "Amazon's web crawler used to train and enhance Alexa",
       "website": "https://developer.amazon.com/amazonbot",
       "source_url": "https://developer.amazon.com/amazonbot/ip-addresses/",
-      "last_changed_at": "2026-04-12T05:29:11Z",
+      "last_changed_at": "2026-04-12T05:37:51Z",
       "user_agent_patterns": [
         "*Amazonbot*"
       ],
@@ -589,7 +589,6 @@
         "107.20.255.194/32",
         "107.22.208.39/32",
         "107.23.62.75/32",
-        "131.0.0.0/32",
         "184.72.84.154/32",
         "184.72.95.195/32",
         "184.73.35.182/32",
