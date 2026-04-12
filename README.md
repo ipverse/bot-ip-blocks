@@ -21,7 +21,6 @@ Both files have the same shape:
 
 ```json
 {
-  "generated_at": "2026-04-12T05:13:10Z",
   "services": {
     "Googlebot": {
       "description": "Google's primary search indexing crawler.",
