@@ -14,7 +14,7 @@
 | [DuckDuckBot](https://duckduckgo.com) | 289 | 0 | 2026-04-12 |
 | [GPTBot](https://openai.com) | 17 | 0 | 2026-04-12 |
 | [Google (special)](https://www.google.com) | 20 | 26 | 2026-04-14 |
-| [Google (user-triggered)](https://www.google.com) | 108 | 129 | 2026-04-14 |
+| [Google (user-triggered)](https://www.google.com) | 108 | 129 | 2026-04-27 |
 | [Googlebot](https://www.google.com) | 46 | 30 | 2026-04-14 |
 | [Kagibot](https://kagi.com) | 4 | 0 | 2026-04-12 |
 | [Meta-ExternalAgent](https://www.meta.com) | 24 | 2 | 2026-04-12 |
