@@ -34,9 +34,9 @@
 | [Datadog](https://www.datadoghq.com) | 113 | 0 | 2026-04-12 |
 | [HetrixTools](https://hetrixtools.com) | 103 | 0 | 2026-04-12 |
 | [New Relic](https://newrelic.com) | 59 | 0 | 2026-04-12 |
-| [Oh Dear](https://ohdear.app) | 41 | 31 | 2026-04-12 |
+| [Oh Dear](https://ohdear.app) | 40 | 31 | 2026-04-29 |
 | [Pingdom](https://www.pingdom.com) | 98 | 52 | 2026-04-12 |
 | [StatusCake](https://www.statuscake.com) | 183 | 113 | 2026-04-12 |
 | [UptimeRobot](https://uptimerobot.com) | 110 | 107 | 2026-04-12 |
 | [updown.io](https://updown.io) | 11 | 11 | 2026-04-12 |
-| **Total** | **885** | **365** | |
+| **Total** | **884** | **365** | |

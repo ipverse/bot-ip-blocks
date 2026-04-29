@@ -573,7 +573,7 @@
       "description": "Oh Dear uptime monitoring probes",
       "website": "https://ohdear.app",
       "source_url": "https://ohdear.app/used-ips",
-      "last_changed_at": "2026-04-12T05:29:13Z",
+      "last_changed_at": "2026-04-29T05:35:39Z",
       "user_agent_patterns": [
         "*Oh Dear*",
         "*ohdear.app*"
@@ -582,7 +582,6 @@
       "ip_list_authoritative": true,
       "ipv4": [
         "13.245.37.23/32",
-        "15.185.161.92/32",
         "23.88.67.24/32",
         "45.32.107.252/32",
         "45.32.146.84/32",
