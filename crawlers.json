@@ -1351,7 +1351,7 @@
       "description": "Google user-triggered fetchers (Site Verifier, Read Aloud, etc.)",
       "website": "https://www.google.com",
       "source_url": "https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers.json",
-      "last_changed_at": "2026-04-27T17:35:40Z",
+      "last_changed_at": "2026-05-01T17:35:34Z",
       "user_agent_patterns": [
         "*Google-Site-Verification*",
         "*Google Publisher Center*",
@@ -1422,9 +1422,7 @@
         "34.127.130.0/25",
         "34.127.131.0/26",
         "34.127.131.64/27",
-        "34.127.132.0/24",
-        "34.127.133.0/25",
-        "34.127.133.128/27",
+        "34.127.132.0/23",
         "34.127.134.0/26",
         "34.127.134.64/27",
         "34.127.136.0/24",
@@ -1602,8 +1600,7 @@
         "2600:1900:0:3c0::/63",
         "2600:1900:0:3c3::/64",
         "2600:1900:0:3c4::/64",
-        "2600:1900:0:3d0::/62",
-        "2600:1900:0:3d4::/64"
+        "2600:1900:0:3d0::/61"
       ]
     },
     "Googlebot": {
