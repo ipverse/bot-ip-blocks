@@ -14,8 +14,8 @@
 | [DuckDuckBot](https://duckduckgo.com) | 289 | 0 | 2026-04-12 |
 | [GPTBot](https://openai.com) | 17 | 0 | 2026-04-12 |
 | [Google (special)](https://www.google.com) | 20 | 26 | 2026-04-14 |
-| [Google (user-triggered)](https://www.google.com) | 106 | 128 | 2026-05-01 |
-| [Googlebot](https://www.google.com) | 46 | 30 | 2026-04-14 |
+| [Google (user-triggered)](https://www.google.com) | 104 | 125 | 2026-05-06 |
+| [Googlebot](https://www.google.com) | 42 | 27 | 2026-05-06 |
 | [Kagibot](https://kagi.com) | 4 | 0 | 2026-04-12 |
 | [Meta-ExternalAgent](https://www.meta.com) | 24 | 2 | 2026-04-12 |
 | [OAI-SearchBot](https://openai.com) | 32 | 0 | 2026-04-12 |
@@ -23,7 +23,7 @@
 | [SE Ranking](https://seranking.com) | 21 | 0 | 2026-04-12 |
 | [SERankingBacklinksBot](https://seranking.com) | 60 | 35 | 2026-04-12 |
 | [Yandex](https://yandex.com) | 14 | 1 | 2026-04-12 |
-| **Total** | **1486** | **223** | |
+| **Total** | **1480** | **217** | |
 
 ## Monitoring
 
