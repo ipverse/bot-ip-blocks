@@ -943,7 +943,7 @@
       "description": "Common Crawl Foundation's CCBot — builds the public Common Crawl web corpus",
       "website": "https://commoncrawl.org",
       "source_url": "https://index.commoncrawl.org/ccbot.json",
-      "last_changed_at": "2026-04-12T05:29:11Z",
+      "last_changed_at": "2026-05-15T17:35:59Z",
       "user_agent_patterns": [
         "*CCBot*"
       ],
@@ -952,6 +952,7 @@
       ],
       "ip_list_authoritative": true,
       "ipv4": [
+        "3.41.188.32/29",
         "18.97.9.168/29",
         "18.97.14.80/29",
         "18.97.14.88/30",
