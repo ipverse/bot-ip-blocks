@@ -8,7 +8,7 @@
 | [Amazonbot](https://developer.amazon.com/amazonbot) | 525 | 0 | 2026-05-14 |
 | [Applebot](https://www.apple.com) | 12 | 0 | 2026-04-12 |
 | [Bingbot](https://www.bing.com) | 28 | 0 | 2026-04-12 |
-| [ChatGPT-User](https://openai.com) | 207 | 0 | 2026-04-30 |
+| [ChatGPT-User](https://openai.com) | 215 | 0 | 2026-05-16 |
 | [ClaudeBot](https://www.anthropic.com) | 20 | 0 | 2026-05-02 |
 | [Common Crawl](https://commoncrawl.org) | 5 | 1 | 2026-05-15 |
 | [DuckDuckBot](https://duckduckgo.com) | 290 | 0 | 2026-05-12 |
@@ -17,13 +17,13 @@
 | [Google (user-triggered)](https://www.google.com) | 104 | 125 | 2026-05-06 |
 | [Googlebot](https://www.google.com) | 42 | 27 | 2026-05-06 |
 | [Kagibot](https://kagi.com) | 4 | 0 | 2026-04-12 |
-| [Meta-ExternalAgent](https://www.meta.com) | 24 | 2 | 2026-05-14 |
+| [Meta-ExternalAgent](https://www.meta.com) | 24 | 2 | 2026-05-16 |
 | [OAI-SearchBot](https://openai.com) | 32 | 0 | 2026-04-12 |
 | [PerplexityBot](https://www.perplexity.ai) | 12 | 0 | 2026-04-12 |
 | [SE Ranking](https://seranking.com) | 21 | 0 | 2026-04-12 |
 | [SERankingBacklinksBot](https://seranking.com) | 60 | 35 | 2026-04-12 |
 | [Yandex](https://yandex.com) | 14 | 1 | 2026-04-12 |
-| **Total** | **1488** | **217** | |
+| **Total** | **1496** | **217** | |
 
 ## Monitoring
 
