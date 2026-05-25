@@ -17,7 +17,7 @@
 | [Google (user-triggered)](https://www.google.com) | 101 | 122 | 2026-05-22 |
 | [Googlebot](https://www.google.com) | 42 | 27 | 2026-05-06 |
 | [Kagibot](https://kagi.com) | 4 | 0 | 2026-04-12 |
-| [Meta-ExternalAgent](https://www.meta.com) | 24 | 2 | 2026-05-16 |
+| [Meta-ExternalAgent](https://www.meta.com) | 24 | 2 | 2026-05-25 |
 | [OAI-SearchBot](https://openai.com) | 32 | 0 | 2026-04-12 |
 | [PerplexityBot](https://www.perplexity.ai) | 12 | 0 | 2026-04-12 |
 | [SE Ranking](https://seranking.com) | 21 | 0 | 2026-04-12 |
