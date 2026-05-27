@@ -11,7 +11,7 @@
 | [ChatGPT-User](https://openai.com) | 214 | 0 | 2026-05-21 |
 | [ClaudeBot](https://www.anthropic.com) | 20 | 0 | 2026-05-02 |
 | [Common Crawl](https://commoncrawl.org) | 5 | 1 | 2026-05-15 |
-| [DuckDuckBot](https://duckduckgo.com) | 290 | 0 | 2026-05-12 |
+| [DuckDuckBot](https://duckduckgo.com) | 334 | 0 | 2026-05-27 |
 | [GPTBot](https://openai.com) | 17 | 0 | 2026-04-12 |
 | [Google (special)](https://www.google.com) | 20 | 26 | 2026-04-14 |
 | [Google (user-triggered)](https://www.google.com) | 101 | 122 | 2026-05-22 |
@@ -23,7 +23,7 @@
 | [SE Ranking](https://seranking.com) | 21 | 0 | 2026-04-12 |
 | [SERankingBacklinksBot](https://seranking.com) | 60 | 35 | 2026-04-12 |
 | [Yandex](https://yandex.com) | 14 | 1 | 2026-04-12 |
-| **Total** | **1492** | **214** | |
+| **Total** | **1536** | **214** | |
 
 ## Monitoring
 
@@ -34,9 +34,9 @@
 | [Datadog](https://www.datadoghq.com) | 113 | 0 | 2026-04-12 |
 | [HetrixTools](https://hetrixtools.com) | 103 | 0 | 2026-04-12 |
 | [New Relic](https://newrelic.com) | 59 | 0 | 2026-04-12 |
-| [Oh Dear](https://ohdear.app) | 40 | 31 | 2026-04-29 |
+| [Oh Dear](https://ohdear.app) | 43 | 31 | 2026-05-27 |
 | [Pingdom](https://www.pingdom.com) | 102 | 56 | 2026-05-25 |
 | [StatusCake](https://www.statuscake.com) | 183 | 113 | 2026-04-12 |
 | [UptimeRobot](https://uptimerobot.com) | 110 | 107 | 2026-04-12 |
 | [updown.io](https://updown.io) | 11 | 11 | 2026-04-12 |
-| **Total** | **888** | **369** | |
+| **Total** | **891** | **369** | |
