@@ -35,7 +35,7 @@
 | [HetrixTools](https://hetrixtools.com) | 103 | 0 | 2026-04-12 |
 | [New Relic](https://newrelic.com) | 59 | 0 | 2026-04-12 |
 | [Oh Dear](https://ohdear.app) | 43 | 31 | 2026-05-27 |
-| [Pingdom](https://www.pingdom.com) | 102 | 56 | 2026-05-25 |
+| [Pingdom](https://www.pingdom.com) | 102 | 56 | 2026-06-02 |
 | [StatusCake](https://www.statuscake.com) | 183 | 113 | 2026-04-12 |
 | [UptimeRobot](https://uptimerobot.com) | 110 | 107 | 2026-04-12 |
 | [updown.io](https://updown.io) | 11 | 11 | 2026-04-12 |
