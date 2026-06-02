@@ -21,9 +21,9 @@
 | [OAI-SearchBot](https://openai.com) | 32 | 0 | 2026-04-12 |
 | [PerplexityBot](https://www.perplexity.ai) | 12 | 0 | 2026-04-12 |
 | [SE Ranking](https://seranking.com) | 21 | 0 | 2026-04-12 |
-| [SERankingBacklinksBot](https://seranking.com) | 60 | 35 | 2026-04-12 |
+| [SERankingBacklinksBot](https://seranking.com) | 3 | 0 | 2026-06-02 |
 | [Yandex](https://yandex.com) | 14 | 1 | 2026-04-12 |
-| **Total** | **1539** | **215** | |
+| **Total** | **1482** | **180** | |
 
 ## Monitoring
 
