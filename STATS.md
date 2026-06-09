@@ -13,9 +13,9 @@
 | [Common Crawl](https://commoncrawl.org) | 5 | 1 | 2026-05-15 |
 | [DuckDuckBot](https://duckduckgo.com) | 334 | 0 | 2026-05-27 |
 | [GPTBot](https://openai.com) | 17 | 0 | 2026-04-12 |
-| [Google (special)](https://www.google.com) | 21 | 27 | 2026-05-27 |
-| [Google (user-triggered)](https://www.google.com) | 102 | 121 | 2026-05-27 |
-| [Googlebot](https://www.google.com) | 43 | 28 | 2026-05-27 |
+| [Google (special)](https://www.google.com) | 17 | 23 | 2026-06-09 |
+| [Google (user-triggered)](https://www.google.com) | 99 | 122 | 2026-06-09 |
+| [Googlebot](https://www.google.com) | 41 | 24 | 2026-06-09 |
 | [Kagibot](https://kagi.com) | 4 | 0 | 2026-04-12 |
 | [Meta-ExternalAgent](https://www.meta.com) | 31 | 2 | 2026-06-06 |
 | [OAI-SearchBot](https://openai.com) | 32 | 0 | 2026-04-12 |
@@ -23,7 +23,7 @@
 | [SE Ranking](https://seranking.com) | 21 | 0 | 2026-04-12 |
 | [SERankingBacklinksBot](https://seranking.com) | 3 | 0 | 2026-06-02 |
 | [Yandex](https://yandex.com) | 14 | 1 | 2026-04-12 |
-| **Total** | **1489** | **180** | |
+| **Total** | **1480** | **173** | |
 
 ## Monitoring
 
