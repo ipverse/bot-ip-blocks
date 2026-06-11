@@ -8,7 +8,7 @@
 | [Amazonbot](https://developer.amazon.com/amazonbot) | 525 | 0 | 2026-05-14 |
 | [Applebot](https://www.apple.com) | 12 | 0 | 2026-04-12 |
 | [Bingbot](https://www.bing.com) | 28 | 0 | 2026-04-12 |
-| [ChatGPT-User](https://openai.com) | 214 | 0 | 2026-05-21 |
+| [ChatGPT-User](https://openai.com) | 220 | 0 | 2026-06-11 |
 | [ClaudeBot](https://www.anthropic.com) | 20 | 0 | 2026-05-02 |
 | [Common Crawl](https://commoncrawl.org) | 5 | 1 | 2026-05-15 |
 | [DuckDuckBot](https://duckduckgo.com) | 334 | 0 | 2026-05-27 |
@@ -23,7 +23,7 @@
 | [SE Ranking](https://seranking.com) | 21 | 0 | 2026-04-12 |
 | [SERankingBacklinksBot](https://seranking.com) | 3 | 0 | 2026-06-02 |
 | [Yandex](https://yandex.com) | 14 | 1 | 2026-04-12 |
-| **Total** | **1480** | **173** | |
+| **Total** | **1486** | **173** | |
 
 ## Monitoring
 
