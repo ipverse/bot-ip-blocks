@@ -38,5 +38,5 @@
 | [Pingdom](https://www.pingdom.com) | 98 | 56 | 2026-06-04 |
 | [StatusCake](https://www.statuscake.com) | 183 | 113 | 2026-04-12 |
 | [UptimeRobot](https://uptimerobot.com) | 110 | 107 | 2026-04-12 |
-| [updown.io](https://updown.io) | 11 | 11 | 2026-04-12 |
+| [updown.io](https://updown.io) | 11 | 11 | 2026-06-15 |
 | **Total** | **887** | **369** | |
