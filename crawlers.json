@@ -1776,7 +1776,7 @@
       "description": "Meta's crawlers (meta-externalagent, meta-externalfetcher, facebookexternalhit, FacebookBot) — resolved via the full AS32934 (FACEBOOK) prefix list",
       "website": "https://www.meta.com",
       "source_url": "https://raw.githubusercontent.com/ipverse/as-ip-blocks/refs/heads/master/as/32934/aggregated.json",
-      "last_changed_at": "2026-06-19T05:35:44Z",
+      "last_changed_at": "2026-06-20T05:35:42Z",
       "user_agent_patterns": [
         "*meta-externalagent*",
         "*meta-externalfetcher*",
@@ -1794,7 +1794,7 @@
         "31.13.64.0/18",
         "45.64.40.0/22",
         "57.141.0.0/24",
-        "57.141.2.0/24",
+        "57.141.2.0/23",
         "57.141.4.0/23",
         "57.141.6.0/24",
         "57.141.8.0/24",
