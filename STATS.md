@@ -8,7 +8,7 @@
 | [Amazonbot](https://developer.amazon.com/amazonbot) | 525 | 0 | 2026-05-14 |
 | [Applebot](https://www.apple.com) | 12 | 0 | 2026-04-12 |
 | [Bingbot](https://www.bing.com) | 28 | 0 | 2026-04-12 |
-| [ChatGPT-User](https://openai.com) | 221 | 0 | 2026-06-17 |
+| [ChatGPT-User](https://openai.com) | 221 | 0 | 2026-06-25 |
 | [ClaudeBot](https://www.anthropic.com) | 20 | 0 | 2026-05-02 |
 | [Common Crawl](https://commoncrawl.org) | 5 | 1 | 2026-05-15 |
 | [DuckDuckBot](https://duckduckgo.com) | 339 | 0 | 2026-06-23 |
@@ -37,6 +37,6 @@
 | [Oh Dear](https://ohdear.app) | 43 | 31 | 2026-05-27 |
 | [Pingdom](https://www.pingdom.com) | 98 | 56 | 2026-06-04 |
 | [StatusCake](https://www.statuscake.com) | 183 | 113 | 2026-04-12 |
-| [UptimeRobot](https://uptimerobot.com) | 110 | 107 | 2026-04-12 |
+| [UptimeRobot](https://uptimerobot.com) | 102 | 103 | 2026-06-25 |
 | [updown.io](https://updown.io) | 11 | 11 | 2026-06-15 |
-| **Total** | **887** | **369** | |
+| **Total** | **879** | **365** | |
