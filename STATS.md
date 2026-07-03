@@ -17,13 +17,13 @@
 | [Google (user-triggered)](https://www.google.com) | 99 | 122 | 2026-06-09 |
 | [Googlebot](https://www.google.com) | 41 | 24 | 2026-06-09 |
 | [Kagibot](https://kagi.com) | 4 | 0 | 2026-04-12 |
-| [Meta-ExternalAgent](https://www.meta.com) | 32 | 2 | 2026-06-20 |
+| [Meta-ExternalAgent](https://www.meta.com) | 33 | 2 | 2026-07-03 |
 | [OAI-SearchBot](https://openai.com) | 32 | 0 | 2026-04-12 |
 | [PerplexityBot](https://www.perplexity.ai) | 12 | 0 | 2026-04-12 |
 | [SE Ranking](https://seranking.com) | 21 | 0 | 2026-04-12 |
 | [SERankingBacklinksBot](https://seranking.com) | 3 | 0 | 2026-06-02 |
 | [Yandex](https://yandex.com) | 14 | 1 | 2026-04-12 |
-| **Total** | **1493** | **173** | |
+| **Total** | **1494** | **173** | |
 
 ## Monitoring
 
