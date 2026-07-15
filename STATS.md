@@ -8,7 +8,7 @@
 | [Amazonbot](https://developer.amazon.com/amazonbot) | 525 | 0 | 2026-05-14 |
 | [Applebot](https://www.apple.com) | 12 | 0 | 2026-04-12 |
 | [Bingbot](https://www.bing.com) | 28 | 0 | 2026-04-12 |
-| [ChatGPT-User](https://openai.com) | 235 | 0 | 2026-07-11 |
+| [ChatGPT-User](https://openai.com) | 234 | 0 | 2026-07-15 |
 | [ClaudeBot](https://www.anthropic.com) | 20 | 0 | 2026-05-02 |
 | [Common Crawl](https://commoncrawl.org) | 5 | 1 | 2026-05-15 |
 | [DuckDuckBot](https://duckduckgo.com) | 339 | 0 | 2026-06-23 |
@@ -17,7 +17,7 @@
 | [Google (user-triggered)](https://www.google.com) | 99 | 122 | 2026-06-09 |
 | [Googlebot](https://www.google.com) | 41 | 24 | 2026-06-09 |
 | [Kagibot](https://kagi.com) | 4 | 0 | 2026-04-12 |
-| [Meta-ExternalAgent](https://www.meta.com) | 32 | 2 | 2026-07-13 |
+| [Meta-ExternalAgent](https://www.meta.com) | 33 | 2 | 2026-07-15 |
 | [OAI-SearchBot](https://openai.com) | 32 | 0 | 2026-04-12 |
 | [PerplexityBot](https://www.perplexity.ai) | 12 | 0 | 2026-04-12 |
 | [SE Ranking](https://seranking.com) | 21 | 0 | 2026-04-12 |
