@@ -669,7 +669,7 @@
       "description": "Pingdom uptime monitoring probes (IPv4 + IPv6)",
       "website": "https://www.pingdom.com",
       "source_url": "https://my.pingdom.com/probes/ipv4",
-      "last_changed_at": "2026-06-04T17:35:41Z",
+      "last_changed_at": "2026-07-20T17:35:34Z",
       "user_agent_patterns": [
         "*Pingdom.com_bot*",
         "*PingdomTMS*"
@@ -794,7 +794,7 @@
         "2604:4500:5:a0::4033/128",
         "2604:4500:8:120::4032/128",
         "2604:4500:9:5d::4031/128",
-        "2604:6600:fdc0:12::4066/128",
+        "2604:6600:fdc0:1::122/128",
         "2604:86c0:4001:b::4067/128",
         "2604:b480:fff9::444/128",
         "2604:b480:fffa::4015/128",
