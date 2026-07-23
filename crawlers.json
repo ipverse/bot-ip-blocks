@@ -686,7 +686,7 @@
       "description": "OpenAI user-triggered fetcher used by ChatGPT browsing",
       "website": "https://openai.com",
       "source_url": "https://openai.com/chatgpt-user.json",
-      "last_changed_at": "2026-07-21T05:36:12Z",
+      "last_changed_at": "2026-07-23T05:36:06Z",
       "user_agent_patterns": [
         "*ChatGPT-User*"
       ],
@@ -706,6 +706,7 @@
         "4.197.64.64/28",
         "4.197.115.112/28",
         "4.198.72.16/28",
+        "4.198.96.112/28",
         "4.201.232.64/27",
         "4.203.96.80/28",
         "4.205.128.176/28",
@@ -731,7 +732,6 @@
         "13.83.237.176/28",
         "20.17.108.96/28",
         "20.27.94.128/28",
-        "20.42.250.32/28",
         "20.45.178.144/28",
         "20.52.125.160/28",
         "20.55.129.0/28",
