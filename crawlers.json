@@ -997,7 +997,7 @@
       "description": "Common Crawl Foundation's CCBot — builds the public Common Crawl web corpus",
       "website": "https://commoncrawl.org",
       "source_url": "https://index.commoncrawl.org/ccbot.json",
-      "last_changed_at": "2026-05-15T17:35:59Z",
+      "last_changed_at": "2026-08-05T17:35:39Z",
       "user_agent_patterns": [
         "*CCBot*"
       ],
@@ -1013,7 +1013,7 @@
         "98.85.178.216/32"
       ],
       "ipv6": [
-        "2600:1f28:365:80b0::/60"
+        "2600:1f28:365:8000::/56"
       ]
     },
     "DuckDuckBot": {

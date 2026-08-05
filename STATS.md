@@ -10,7 +10,7 @@
 | [Bingbot](https://www.bing.com) | 28 | 0 | 2026-04-12 |
 | [ChatGPT-User](https://openai.com) | 261 | 0 | 2026-08-05 |
 | [ClaudeBot](https://www.anthropic.com) | 20 | 0 | 2026-05-02 |
-| [Common Crawl](https://commoncrawl.org) | 5 | 1 | 2026-05-15 |
+| [Common Crawl](https://commoncrawl.org) | 5 | 1 | 2026-08-05 |
 | [DuckDuckBot](https://duckduckgo.com) | 339 | 0 | 2026-06-23 |
 | [GPTBot](https://openai.com) | 17 | 0 | 2026-04-12 |
 | [Google (special)](https://www.google.com) | 17 | 23 | 2026-06-09 |
