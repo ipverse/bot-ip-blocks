@@ -6,10 +6,10 @@
 |---|---:|---:|---|
 | [Ahrefs](https://ahrefs.com) | 51 | 0 | 2026-04-12 |
 | [Amazonbot](https://developer.amazon.com/amazonbot) | 525 | 0 | 2026-05-14 |
-| [Applebot](https://www.apple.com) | 12 | 0 | 2026-04-12 |
+| [Applebot](https://www.apple.com) | 21 | 0 | 2026-08-14 |
 | [Bingbot](https://www.bing.com) | 28 | 0 | 2026-04-12 |
-| [ChatGPT-User](https://openai.com) | 214 | 0 | 2026-08-13 |
-| [ClaudeBot](https://www.anthropic.com) | 21 | 0 | 2026-08-12 |
+| [ChatGPT-User](https://openai.com) | 198 | 0 | 2026-08-14 |
+| [ClaudeBot](https://www.anthropic.com) | 23 | 0 | 2026-08-14 |
 | [Common Crawl](https://commoncrawl.org) | 5 | 1 | 2026-08-05 |
 | [DuckDuckBot](https://duckduckgo.com) | 339 | 0 | 2026-06-23 |
 | [GPTBot](https://openai.com) | 17 | 0 | 2026-04-12 |
@@ -23,7 +23,7 @@
 | [SE Ranking](https://seranking.com) | 21 | 0 | 2026-04-12 |
 | [SERankingBacklinksBot](https://seranking.com) | 3 | 0 | 2026-06-02 |
 | [Yandex](https://yandex.com) | 14 | 1 | 2026-04-12 |
-| **Total** | **1489** | **174** | |
+| **Total** | **1484** | **174** | |
 
 ## Monitoring
 
