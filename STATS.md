@@ -4,7 +4,7 @@
 
 | Service | IPv4 prefixes | IPv6 prefixes | Last changed |
 |---|---:|---:|---|
-| [Ahrefs](https://ahrefs.com) | 61 | 0 | 2026-08-18 |
+| [Ahrefs](https://ahrefs.com) | 100 | 0 | 2026-08-18 |
 | [Amazonbot](https://developer.amazon.com/amazonbot) | 525 | 0 | 2026-05-14 |
 | [Applebot](https://www.apple.com) | 21 | 0 | 2026-08-14 |
 | [Bingbot](https://www.bing.com) | 28 | 0 | 2026-04-12 |
@@ -23,7 +23,7 @@
 | [SE Ranking](https://seranking.com) | 21 | 0 | 2026-04-12 |
 | [SERankingBacklinksBot](https://seranking.com) | 3 | 0 | 2026-06-02 |
 | [Yandex](https://yandex.com) | 14 | 1 | 2026-04-12 |
-| **Total** | **1489** | **174** | |
+| **Total** | **1528** | **174** | |
 
 ## Monitoring
 
