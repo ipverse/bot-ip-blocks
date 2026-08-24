@@ -10,7 +10,7 @@
 | [Bingbot](https://www.bing.com) | 28 | 0 | 2026-04-12 |
 | [ChatGPT-User](https://openai.com) | 193 | 0 | 2026-08-15 |
 | [ClaudeBot](https://www.anthropic.com) | 26 | 0 | 2026-08-20 |
-| [Common Crawl](https://commoncrawl.org) | 5 | 1 | 2026-08-05 |
+| [Common Crawl](https://commoncrawl.org) | 4 | 1 | 2026-08-24 |
 | [DuckDuckBot](https://duckduckgo.com) | 339 | 0 | 2026-06-23 |
 | [GPTBot](https://openai.com) | 17 | 0 | 2026-04-12 |
 | [Google (special)](https://www.google.com) | 17 | 23 | 2026-06-09 |
@@ -23,7 +23,7 @@
 | [SE Ranking](https://seranking.com) | 29 | 0 | 2026-08-21 |
 | [SERankingBacklinksBot](https://seranking.com) | 71 | 48 | 2026-08-21 |
 | [Yandex](https://yandex.com) | 13 | 0 | 2026-08-24 |
-| **Total** | **1575** | **219** | |
+| **Total** | **1574** | **219** | |
 
 ## Monitoring
 

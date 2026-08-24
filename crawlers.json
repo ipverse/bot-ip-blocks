@@ -974,7 +974,7 @@
       "description": "Common Crawl Foundation's CCBot — builds the public Common Crawl web corpus",
       "website": "https://commoncrawl.org",
       "source_url": "https://index.commoncrawl.org/ccbot.json",
-      "last_changed_at": "2026-08-05T17:35:39Z",
+      "last_changed_at": "2026-08-24T17:35:37Z",
       "user_agent_patterns": [
         "*CCBot*"
       ],
@@ -986,8 +986,7 @@
         "3.41.188.32/29",
         "18.97.9.168/29",
         "18.97.14.80/29",
-        "18.97.14.88/30",
-        "98.85.178.216/32"
+        "18.97.14.88/30"
       ],
       "ipv6": [
         "2600:1f28:365:8000::/56"
