@@ -1799,7 +1799,7 @@
       "description": "Meta's crawlers (meta-externalagent, meta-externalfetcher, facebookexternalhit, FacebookBot) — resolved via the full AS32934 (FACEBOOK) prefix list",
       "website": "https://www.meta.com",
       "source_url": "https://raw.githubusercontent.com/ipverse/as-ip-blocks/refs/heads/master/as/32934/aggregated.json",
-      "last_changed_at": "2026-08-24T05:35:39Z",
+      "last_changed_at": "2026-08-25T05:35:38Z",
       "user_agent_patterns": [
         "*meta-externalagent*",
         "*meta-externalfetcher*",
@@ -1816,6 +1816,18 @@
         "31.13.24.0/21",
         "31.13.64.0/18",
         "45.64.40.0/22",
+        "57.141.0.0/24",
+        "57.141.2.0/23",
+        "57.141.4.0/23",
+        "57.141.6.0/24",
+        "57.141.8.0/24",
+        "57.141.10.0/24",
+        "57.141.12.0/23",
+        "57.141.14.0/24",
+        "57.141.16.0/22",
+        "57.141.20.0/24",
+        "57.141.22.0/24",
+        "57.141.24.0/24",
         "57.144.0.0/14",
         "66.220.144.0/20",
         "69.63.176.0/20",
@@ -1835,7 +1847,10 @@
         "185.89.216.0/22",
         "204.15.20.0/22"
       ],
-      "ipv6": []
+      "ipv6": [
+        "2620:0:1c00::/40",
+        "2a03:2880::/32"
+      ]
     },
     "OAI-SearchBot": {
       "description": "OpenAI's SearchGPT crawler for search results",
@@ -2095,7 +2110,7 @@
       "description": "Yandex's search crawlers (YandexBot, YandexImages, YandexMobileBot, …) — resolved via the full AS13238 (YANDEX) prefix aggregate. AS13238 covers all Yandex infrastructure (search, mail, ads, cloud), so IP membership is advisory only; consumers must verify via rDNS + user-agent",
       "website": "https://yandex.com",
       "source_url": "https://raw.githubusercontent.com/ipverse/as-ip-blocks/refs/heads/master/as/13238/aggregated.json",
-      "last_changed_at": "2026-08-24T05:35:39Z",
+      "last_changed_at": "2026-08-25T05:35:38Z",
       "user_agent_patterns": [
         "*YandexBot*",
         "*YandexImages*",
@@ -2127,9 +2142,12 @@
         "95.108.128.0/17",
         "141.8.128.0/18",
         "178.154.128.0/18",
+        "185.32.187.0/24",
         "213.180.192.0/19"
       ],
-      "ipv6": []
+      "ipv6": [
+        "2a02:6b8::/29"
+      ]
     }
   }
 }
