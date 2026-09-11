@@ -18,12 +18,12 @@
 | [Googlebot](https://www.google.com) | 37 | 22 | 2026-09-01 |
 | [Kagibot](https://kagi.com) | 4 | 0 | 2026-04-12 |
 | [Meta-ExternalAgent](https://www.meta.com) | 33 | 2 | 2026-08-25 |
-| [OAI-SearchBot](https://openai.com) | 32 | 0 | 2026-04-12 |
+| [OAI-SearchBot](https://openai.com) | 36 | 0 | 2026-09-11 |
 | [PerplexityBot](https://www.perplexity.ai) | 12 | 0 | 2026-04-12 |
 | [SE Ranking](https://seranking.com) | 29 | 0 | 2026-08-21 |
 | [SERankingBacklinksBot](https://seranking.com) | 71 | 48 | 2026-08-21 |
 | [Yandex](https://yandex.com) | 14 | 1 | 2026-08-25 |
-| **Total** | **2357** | **216** | |
+| **Total** | **2361** | **216** | |
 
 ## Monitoring
 
