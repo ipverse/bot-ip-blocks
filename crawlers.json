@@ -1407,7 +1407,7 @@
       "description": "Apple's web crawler used for Siri and Spotlight Suggestions",
       "website": "https://www.apple.com",
       "source_url": "https://search.developer.apple.com/applebot.json",
-      "last_changed_at": "2026-08-14T05:35:43Z",
+      "last_changed_at": "2026-09-15T17:35:38Z",
       "user_agent_patterns": [
         "*Applebot*",
         "*Applebot-Extended*"
@@ -1417,9 +1417,6 @@
       ],
       "ip_list_authoritative": true,
       "ipv4": [
-        "17.22.237.0/24",
-        "17.22.245.0/24",
-        "17.22.253.0/24",
         "17.166.20.0/22",
         "17.166.24.0/23",
         "17.166.150.0/23",
@@ -1429,15 +1426,9 @@
         "17.166.236.0/23",
         "17.166.240.48/28",
         "17.166.248.48/28",
-        "17.241.75.0/24",
         "17.241.193.160/27",
         "17.241.200.160/27",
-        "17.241.208.160/27",
-        "17.241.219.0/24",
-        "17.241.227.0/24",
-        "17.246.15.0/24",
-        "17.246.19.0/24",
-        "17.246.23.0/24"
+        "17.241.208.160/27"
       ],
       "ipv6": []
     },

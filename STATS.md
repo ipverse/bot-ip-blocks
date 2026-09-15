@@ -6,7 +6,7 @@
 |---|---:|---:|---|
 | [Ahrefs](https://ahrefs.com) | 81 | 0 | 2026-08-20 |
 | [Amazonbot](https://developer.amazon.com/amazonbot) | 1293 | 0 | 2026-09-10 |
-| [Applebot](https://www.apple.com) | 21 | 0 | 2026-08-14 |
+| [Applebot](https://www.apple.com) | 12 | 0 | 2026-09-15 |
 | [Bingbot](https://www.bing.com) | 28 | 0 | 2026-04-12 |
 | [ChatGPT-User](https://openai.com) | 203 | 0 | 2026-09-12 |
 | [ClaudeBot](https://www.anthropic.com) | 26 | 0 | 2026-08-20 |
@@ -23,7 +23,7 @@
 | [SE Ranking](https://seranking.com) | 29 | 0 | 2026-08-21 |
 | [SERankingBacklinksBot](https://seranking.com) | 71 | 48 | 2026-08-21 |
 | [Yandex](https://yandex.com) | 14 | 1 | 2026-08-25 |
-| **Total** | **2366** | **216** | |
+| **Total** | **2357** | **216** | |
 
 ## Monitoring
 
