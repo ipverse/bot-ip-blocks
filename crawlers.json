@@ -1484,7 +1484,7 @@
       "description": "OpenAI user-triggered fetcher used by ChatGPT browsing",
       "website": "https://openai.com",
       "source_url": "https://openai.com/chatgpt-user.json",
-      "last_changed_at": "2026-09-17T17:35:58Z",
+      "last_changed_at": "2026-09-18T05:35:36Z",
       "user_agent_patterns": [
         "*ChatGPT-User*"
       ],
@@ -1656,6 +1656,8 @@
         "104.210.139.224/28",
         "128.85.198.32/28",
         "132.196.82.48/28",
+        "134.138.52.64/28",
+        "134.138.52.96/28",
         "134.149.233.80/28",
         "135.13.64.240/28",
         "135.116.136.160/28",
@@ -2563,7 +2565,7 @@
       "description": "Meta's crawlers (meta-externalagent, meta-externalfetcher, facebookexternalhit, FacebookBot) — resolved via the full AS32934 (FACEBOOK) prefix list",
       "website": "https://www.meta.com",
       "source_url": "https://raw.githubusercontent.com/ipverse/as-ip-blocks/refs/heads/master/as/32934/aggregated.json",
-      "last_changed_at": "2026-08-25T05:35:38Z",
+      "last_changed_at": "2026-09-18T05:35:36Z",
       "user_agent_patterns": [
         "*meta-externalagent*",
         "*meta-externalfetcher*",
@@ -2605,6 +2607,7 @@
         "163.70.128.0/17",
         "163.77.132.0/23",
         "163.77.136.0/23",
+        "163.77.160.0/20",
         "173.252.64.0/18",
         "179.60.192.0/22",
         "185.60.216.0/22",
