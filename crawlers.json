@@ -2137,7 +2137,7 @@
       "description": "OpenAI's web crawler used to improve future models",
       "website": "https://openai.com",
       "source_url": "https://openai.com/gptbot.json",
-      "last_changed_at": "2026-04-12T05:29:11Z",
+      "last_changed_at": "2026-09-22T17:35:36Z",
       "user_agent_patterns": [
         "*GPTBot*"
       ],
@@ -2158,9 +2158,7 @@
         "74.7.244.0/25",
         "132.196.86.0/24",
         "172.182.202.0/25",
-        "172.182.204.0/24",
-        "172.182.207.0/25",
-        "172.182.214.0/23"
+        "172.182.207.0/25"
       ],
       "ipv6": []
     },
