@@ -1717,7 +1717,7 @@
       "description": "Anthropic's web crawlers (ClaudeBot, Claude-User, Claude-SearchBot)",
       "website": "https://www.anthropic.com",
       "source_url": "https://claude.com/crawling/bots.json",
-      "last_changed_at": "2026-08-20T05:35:39Z",
+      "last_changed_at": "2026-10-03T05:36:40Z",
       "user_agent_patterns": [
         "*ClaudeBot*",
         "*Claude-User*",
@@ -1751,6 +1751,8 @@
         "35.245.175.129/32",
         "40.124.101.48/28",
         "136.107.176.208/32",
+        "160.79.106.16/28",
+        "160.79.106.128/28",
         "216.73.216.0/22"
       ],
       "ipv6": []
