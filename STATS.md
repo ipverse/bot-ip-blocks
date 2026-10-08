@@ -9,7 +9,7 @@
 | [Applebot](https://www.apple.com) | 12 | 0 | 2026-09-15 |
 | [Bingbot](https://www.bing.com) | 28 | 0 | 2026-04-12 |
 | [ChatGPT-User](https://openai.com) | 223 | 0 | 2026-10-07 |
-| [ClaudeBot](https://www.anthropic.com) | 28 | 0 | 2026-10-03 |
+| [ClaudeBot](https://www.anthropic.com) | 38 | 0 | 2026-10-08 |
 | [Common Crawl](https://commoncrawl.org) | 4 | 1 | 2026-08-24 |
 | [DuckDuckBot](https://duckduckgo.com) | 344 | 0 | 2026-09-03 |
 | [GPTBot](https://openai.com) | 15 | 0 | 2026-09-22 |
@@ -23,7 +23,7 @@
 | [SE Ranking](https://seranking.com) | 29 | 0 | 2026-08-21 |
 | [SERankingBacklinksBot](https://seranking.com) | 71 | 48 | 2026-08-21 |
 | [Yandex](https://yandex.com) | 14 | 1 | 2026-08-25 |
-| **Total** | **2378** | **216** | |
+| **Total** | **2388** | **216** | |
 
 ## Monitoring
 
