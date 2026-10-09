@@ -14,7 +14,7 @@
 | [DuckDuckBot](https://duckduckgo.com) | 344 | 0 | 2026-09-03 |
 | [GPTBot](https://openai.com) | 15 | 0 | 2026-09-22 |
 | [Google (special)](https://www.google.com) | 15 | 21 | 2026-09-01 |
-| [Google (user-triggered)](https://www.google.com) | 98 | 121 | 2026-10-02 |
+| [Google (user-triggered)](https://www.google.com) | 100 | 123 | 2026-10-09 |
 | [Googlebot](https://www.google.com) | 37 | 22 | 2026-09-01 |
 | [Kagibot](https://kagi.com) | 4 | 0 | 2026-04-12 |
 | [Meta-ExternalAgent](https://www.meta.com) | 34 | 2 | 2026-09-29 |
@@ -23,7 +23,7 @@
 | [SE Ranking](https://seranking.com) | 29 | 0 | 2026-08-21 |
 | [SERankingBacklinksBot](https://seranking.com) | 71 | 48 | 2026-08-21 |
 | [Yandex](https://yandex.com) | 14 | 1 | 2026-08-25 |
-| **Total** | **2388** | **216** | |
+| **Total** | **2390** | **218** | |
 
 ## Monitoring
 
