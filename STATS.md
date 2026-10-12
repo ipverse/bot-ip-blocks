@@ -30,7 +30,7 @@
 | Service | IPv4 prefixes | IPv6 prefixes | Last changed |
 |---|---:|---:|---|
 | [Better Stack](https://betterstack.com) | 17 | 17 | 2026-04-12 |
-| [Checkly](https://www.checklyhq.com) | 150 | 34 | 2026-04-12 |
+| [Checkly](https://www.checklyhq.com) | 152 | 36 | 2026-10-12 |
 | [Datadog](https://www.datadoghq.com) | 107 | 1 | 2026-08-26 |
 | [HetrixTools](https://hetrixtools.com) | 103 | 0 | 2026-04-12 |
 | [New Relic](https://newrelic.com) | 59 | 0 | 2026-04-12 |
@@ -39,4 +39,4 @@
 | [StatusCake](https://www.statuscake.com) | 183 | 113 | 2026-04-12 |
 | [UptimeRobot](https://uptimerobot.com) | 102 | 103 | 2026-06-25 |
 | [updown.io](https://updown.io) | 11 | 11 | 2026-06-15 |
-| **Total** | **926** | **369** | |
+| **Total** | **928** | **371** | |
