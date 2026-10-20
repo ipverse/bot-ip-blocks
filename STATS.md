@@ -8,7 +8,7 @@
 | [Amazonbot](https://developer.amazon.com/amazonbot) | 1293 | 0 | 2026-09-10 |
 | [Applebot](https://www.apple.com) | 12 | 0 | 2026-09-15 |
 | [Bingbot](https://www.bing.com) | 28 | 0 | 2026-04-12 |
-| [ChatGPT-User](https://openai.com) | 223 | 0 | 2026-10-07 |
+| [ChatGPT-User](https://openai.com) | 223 | 0 | 2026-10-20 |
 | [ClaudeBot](https://www.anthropic.com) | 38 | 0 | 2026-10-08 |
 | [Common Crawl](https://commoncrawl.org) | 4 | 1 | 2026-08-24 |
 | [DuckDuckBot](https://duckduckgo.com) | 344 | 0 | 2026-09-03 |
