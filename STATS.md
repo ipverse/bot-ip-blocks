@@ -9,7 +9,7 @@
 | [Applebot](https://www.apple.com) | 12 | 0 | 2026-09-15 |
 | [Bingbot](https://www.bing.com) | 28 | 0 | 2026-04-12 |
 | [ChatGPT-User](https://openai.com) | 223 | 0 | 2026-10-20 |
-| [ClaudeBot](https://www.anthropic.com) | 38 | 0 | 2026-10-08 |
+| [ClaudeBot](https://www.anthropic.com) | 14 | 0 | 2026-10-21 |
 | [Common Crawl](https://commoncrawl.org) | 4 | 1 | 2026-08-24 |
 | [DuckDuckBot](https://duckduckgo.com) | 344 | 0 | 2026-09-03 |
 | [GPTBot](https://openai.com) | 15 | 0 | 2026-09-22 |
@@ -23,7 +23,7 @@
 | [SE Ranking](https://seranking.com) | 29 | 0 | 2026-08-21 |
 | [SERankingBacklinksBot](https://seranking.com) | 71 | 48 | 2026-08-21 |
 | [Yandex](https://yandex.com) | 14 | 1 | 2026-08-25 |
-| **Total** | **2390** | **218** | |
+| **Total** | **2366** | **218** | |
 
 ## Monitoring
 
@@ -35,8 +35,8 @@
 | [HetrixTools](https://hetrixtools.com) | 103 | 0 | 2026-04-12 |
 | [New Relic](https://newrelic.com) | 59 | 0 | 2026-04-12 |
 | [Oh Dear](https://ohdear.app) | 46 | 34 | 2026-07-08 |
-| [Pingdom](https://www.pingdom.com) | 148 | 56 | 2026-08-26 |
+| [Pingdom](https://www.pingdom.com) | 152 | 56 | 2026-10-21 |
 | [StatusCake](https://www.statuscake.com) | 183 | 113 | 2026-04-12 |
 | [UptimeRobot](https://uptimerobot.com) | 102 | 103 | 2026-06-25 |
 | [updown.io](https://updown.io) | 11 | 11 | 2026-06-15 |
-| **Total** | **928** | **371** | |
+| **Total** | **932** | **371** | |
