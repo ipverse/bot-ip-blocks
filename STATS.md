@@ -7,14 +7,14 @@
 | [Ahrefs](https://ahrefs.com) | 81 | 0 | 2026-08-20 |
 | [Amazonbot](https://developer.amazon.com/amazonbot) | 1293 | 0 | 2026-09-10 |
 | [Applebot](https://www.apple.com) | 12 | 0 | 2026-09-15 |
-| [Bingbot](https://www.bing.com) | 28 | 0 | 2026-04-12 |
+| [Bingbot](https://www.bing.com) | 29 | 0 | 2026-11-05 |
 | [ChatGPT-User](https://openai.com) | 224 | 0 | 2026-10-27 |
 | [ClaudeBot](https://www.anthropic.com) | 14 | 0 | 2026-10-21 |
 | [Common Crawl](https://commoncrawl.org) | 4 | 1 | 2026-08-24 |
 | [DuckDuckBot](https://duckduckgo.com) | 484 | 0 | 2026-11-04 |
 | [GPTBot](https://openai.com) | 15 | 0 | 2026-09-22 |
 | [Google (special)](https://www.google.com) | 15 | 21 | 2026-09-01 |
-| [Google (user-triggered)](https://www.google.com) | 100 | 123 | 2026-10-09 |
+| [Google (user-triggered)](https://www.google.com) | 105 | 128 | 2026-11-05 |
 | [Googlebot](https://www.google.com) | 37 | 22 | 2026-09-01 |
 | [Kagibot](https://kagi.com) | 4 | 0 | 2026-04-12 |
 | [Meta-ExternalAgent](https://www.meta.com) | 34 | 2 | 2026-09-29 |
@@ -23,7 +23,7 @@
 | [SE Ranking](https://seranking.com) | 29 | 0 | 2026-08-21 |
 | [SERankingBacklinksBot](https://seranking.com) | 71 | 48 | 2026-08-21 |
 | [Yandex](https://yandex.com) | 14 | 1 | 2026-08-25 |
-| **Total** | **2504** | **218** | |
+| **Total** | **2510** | **223** | |
 
 ## Monitoring
 

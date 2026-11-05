@@ -1436,7 +1436,7 @@
       "description": "Microsoft Bing's primary search indexing crawler",
       "website": "https://www.bing.com",
       "source_url": "https://www.bing.com/toolbox/bingbot.json",
-      "last_changed_at": "2026-04-12T05:29:11Z",
+      "last_changed_at": "2026-11-05T18:35:31Z",
       "user_agent_patterns": [
         "*bingbot*",
         "*BingPreview*",
@@ -1469,6 +1469,7 @@
         "40.79.131.208/28",
         "40.79.186.176/28",
         "51.105.67.0/28",
+        "52.130.224.112/28",
         "52.167.144.0/24",
         "52.231.148.0/28",
         "65.55.210.0/24",
@@ -2365,7 +2366,7 @@
       "description": "Google user-triggered fetchers (Site Verifier, Read Aloud, etc.)",
       "website": "https://www.google.com",
       "source_url": "https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers.json",
-      "last_changed_at": "2026-10-09T17:35:36Z",
+      "last_changed_at": "2026-11-05T18:35:31Z",
       "user_agent_patterns": [
         "*Google-Site-Verification*",
         "*Google Publisher Center*",
@@ -2478,7 +2479,12 @@
         "107.178.203.128/25",
         "107.178.224.0/23",
         "136.124.136.0/26",
-        "136.124.136.64/27"
+        "136.124.136.64/27",
+        "136.124.142.0/25",
+        "136.124.142.128/27",
+        "136.124.143.0/26",
+        "136.124.144.0/26",
+        "136.124.144.64/27"
       ],
       "ipv6": [
         "2404:f340:10:4000::/61",
@@ -2602,8 +2608,13 @@
         "2600:1900:0:3c3::/64",
         "2600:1900:0:3c4::/64",
         "2600:1900:0:3d0::/61",
+        "2600:1900:0:3d8::/62",
+        "2600:1900:0:3dc::/64",
+        "2600:1900:0:3f0::/63",
+        "2600:1900:0:3f2::/64",
         "2600:1900:0:410::/63",
-        "2600:1900:0:412::/64"
+        "2600:1900:0:412::/64",
+        "2600:1900:0:430::/63"
       ]
     },
     "Googlebot": {
