@@ -2830,7 +2830,7 @@
       "description": "Perplexity AI crawlers: PerplexityBot (indexing) + Perplexity-User (answer-time fetch)",
       "website": "https://www.perplexity.ai",
       "source_url": "https://www.perplexity.com/perplexitybot.json",
-      "last_changed_at": "2026-10-28T18:35:39Z",
+      "last_changed_at": "2026-11-18T18:37:08Z",
       "user_agent_patterns": [
         "*PerplexityBot*",
         "*Perplexity-User*"
@@ -2838,6 +2838,7 @@
       "rdns_patterns": [],
       "ip_list_authoritative": true,
       "ipv4": [
+        "3.41.218.160/29",
         "3.222.232.239/32",
         "3.224.62.45/32",
         "18.97.1.228/32",
