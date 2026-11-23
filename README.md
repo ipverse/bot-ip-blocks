@@ -15,6 +15,10 @@ Each service entry includes the IPv4 and IPv6 prefixes plus the things you actua
 
 A human-readable rollup of service counts and totals lives in [STATS.md](STATS.md).
 
+## Update notes
+
+- **2026-11-23**: Added the crawlers Google-Agent, OAI-AdsBot, MistralAI, MojeekBot, Amzn-SearchBot and Amzn-User, and the monitoring probes Sentry, Site24x7 and OneUptime; Google (user-triggered) now includes the previously missing `user-triggered-fetchers-google.json` ranges and the fetcher user agents Google currently documents; Amazonbot no longer includes a stray address picked up from the source page's analytics script
+
 ## JSON format
 
 Both files have the same shape:
