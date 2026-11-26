@@ -9,6 +9,18 @@
         "*Better Uptime Bot*",
         "*Better Stack*"
       ],
+      "agents": [
+        {
+          "name": "Better Uptime Bot",
+          "pattern": "*Better Uptime Bot*",
+          "purpose": "monitoring"
+        },
+        {
+          "name": "Better Stack",
+          "pattern": "*Better Stack*",
+          "purpose": "monitoring"
+        }
+      ],
       "rdns_patterns": [],
       "ip_list_authoritative": true,
       "ipv4": [
@@ -69,6 +81,18 @@
       "user_agent_patterns": [
         "*Checkly*",
         "*checklyhq*"
+      ],
+      "agents": [
+        {
+          "name": "Checkly",
+          "pattern": "*Checkly*",
+          "purpose": "monitoring"
+        },
+        {
+          "name": "checklyhq",
+          "pattern": "*checklyhq*",
+          "purpose": "monitoring"
+        }
       ],
       "rdns_patterns": [],
       "ip_list_authoritative": true,
@@ -270,6 +294,18 @@
         "*DatadogSynthetics*",
         "*Datadog/Synthetics*"
       ],
+      "agents": [
+        {
+          "name": "DatadogSynthetics",
+          "pattern": "*DatadogSynthetics*",
+          "purpose": "monitoring"
+        },
+        {
+          "name": "Datadog/Synthetics",
+          "pattern": "*Datadog/Synthetics*",
+          "purpose": "monitoring"
+        }
+      ],
       "rdns_patterns": [],
       "ip_list_authoritative": true,
       "ipv4": [
@@ -393,6 +429,13 @@
       "user_agent_patterns": [
         "*HetrixTools*"
       ],
+      "agents": [
+        {
+          "name": "HetrixTools",
+          "pattern": "*HetrixTools*",
+          "purpose": "monitoring"
+        }
+      ],
       "rdns_patterns": [],
       "ip_list_authoritative": true,
       "ipv4": [
@@ -508,8 +551,14 @@
       "source_url": "https://s3.amazonaws.com/nr-synthetics-assets/nat-ip-dnsname/production/ip-ranges.json",
       "last_changed_at": "2026-04-12T05:29:13Z",
       "user_agent_patterns": [
-        "*NewRelicPinger*",
-        "*Synthetics*"
+        "*NewRelicPinger*"
+      ],
+      "agents": [
+        {
+          "name": "NewRelicPinger",
+          "pattern": "*NewRelicPinger*",
+          "purpose": "other"
+        }
       ],
       "rdns_patterns": [],
       "ip_list_authoritative": true,
@@ -584,6 +633,18 @@
       "user_agent_patterns": [
         "*Oh Dear*",
         "*ohdear.app*"
+      ],
+      "agents": [
+        {
+          "name": "Oh Dear",
+          "pattern": "*Oh Dear*",
+          "purpose": "monitoring"
+        },
+        {
+          "name": "ohdear.app",
+          "pattern": "*ohdear.app*",
+          "purpose": "monitoring"
+        }
       ],
       "rdns_patterns": [],
       "ip_list_authoritative": true,
@@ -678,6 +739,7 @@
       "source_url": "https://oneuptime.com/ip-whitelist",
       "last_changed_at": "2026-11-23T17:17:15Z",
       "user_agent_patterns": [],
+      "agents": [],
       "rdns_patterns": [],
       "ip_list_authoritative": true,
       "ipv4": [
@@ -696,6 +758,18 @@
       "user_agent_patterns": [
         "*Pingdom.com_bot*",
         "*PingdomTMS*"
+      ],
+      "agents": [
+        {
+          "name": "Pingdom.com_bot",
+          "pattern": "*Pingdom.com_bot*",
+          "purpose": "monitoring"
+        },
+        {
+          "name": "PingdomTMS",
+          "pattern": "*PingdomTMS*",
+          "purpose": "monitoring"
+        }
       ],
       "rdns_patterns": [],
       "ip_list_authoritative": true,
@@ -920,6 +994,13 @@
       "user_agent_patterns": [
         "*SentryUptimeBot*"
       ],
+      "agents": [
+        {
+          "name": "SentryUptimeBot",
+          "pattern": "*SentryUptimeBot*",
+          "purpose": "monitoring"
+        }
+      ],
       "rdns_patterns": [],
       "ip_list_authoritative": true,
       "ipv4": [
@@ -945,6 +1026,13 @@
       "last_changed_at": "2026-11-23T17:17:15Z",
       "user_agent_patterns": [
         "*Site24x7*"
+      ],
+      "agents": [
+        {
+          "name": "Site24x7",
+          "pattern": "*Site24x7*",
+          "purpose": "monitoring"
+        }
       ],
       "rdns_patterns": [],
       "ip_list_authoritative": true,
@@ -1851,6 +1939,13 @@
       "user_agent_patterns": [
         "*StatusCake*"
       ],
+      "agents": [
+        {
+          "name": "StatusCake",
+          "pattern": "*StatusCake*",
+          "purpose": "monitoring"
+        }
+      ],
       "rdns_patterns": [],
       "ip_list_authoritative": true,
       "ipv4": [
@@ -2162,6 +2257,13 @@
       "user_agent_patterns": [
         "*UptimeRobot*"
       ],
+      "agents": [
+        {
+          "name": "UptimeRobot",
+          "pattern": "*UptimeRobot*",
+          "purpose": "monitoring"
+        }
+      ],
       "rdns_patterns": [],
       "ip_list_authoritative": true,
       "ipv4": [
@@ -2381,6 +2483,13 @@
       "last_changed_at": "2026-06-15T17:35:40Z",
       "user_agent_patterns": [
         "*updown.io*"
+      ],
+      "agents": [
+        {
+          "name": "updown.io",
+          "pattern": "*updown.io*",
+          "purpose": "monitoring"
+        }
       ],
       "rdns_patterns": [],
       "ip_list_authoritative": true,

@@ -9,6 +9,18 @@
         "*AhrefsBot*",
         "*AhrefsSiteAudit*"
       ],
+      "agents": [
+        {
+          "name": "AhrefsBot",
+          "pattern": "*AhrefsBot*",
+          "purpose": "other"
+        },
+        {
+          "name": "AhrefsSiteAudit",
+          "pattern": "*AhrefsSiteAudit*",
+          "purpose": "seo"
+        }
+      ],
       "rdns_patterns": [],
       "ip_list_authoritative": true,
       "ipv4": [
@@ -103,6 +115,13 @@
       "last_changed_at": "2026-11-23T17:17:15Z",
       "user_agent_patterns": [
         "*Amazonbot*"
+      ],
+      "agents": [
+        {
+          "name": "Amazonbot",
+          "pattern": "*Amazonbot*",
+          "purpose": "ai-training"
+        }
       ],
       "rdns_patterns": [],
       "ip_list_authoritative": true,
@@ -1410,6 +1429,13 @@
       "user_agent_patterns": [
         "*Amzn-SearchBot*"
       ],
+      "agents": [
+        {
+          "name": "Amzn-SearchBot",
+          "pattern": "*Amzn-SearchBot*",
+          "purpose": "search"
+        }
+      ],
       "rdns_patterns": [],
       "ip_list_authoritative": true,
       "ipv4": [
@@ -2239,6 +2265,13 @@
       "last_changed_at": "2026-11-23T17:17:15Z",
       "user_agent_patterns": [
         "*Amzn-User*"
+      ],
+      "agents": [
+        {
+          "name": "Amzn-User",
+          "pattern": "*Amzn-User*",
+          "purpose": "ai-assistant"
+        }
       ],
       "rdns_patterns": [],
       "ip_list_authoritative": true,
@@ -3270,13 +3303,19 @@
       "ipv6": []
     },
     "Applebot": {
-      "description": "Apple's web crawler used for Siri and Spotlight Suggestions",
+      "description": "Apple's web crawler used for Siri and Spotlight Suggestions; its data may also be used to train Apple's foundation models; disallowing Applebot-Extended in robots.txt opts out",
       "website": "https://www.apple.com",
       "source_url": "https://search.developer.apple.com/applebot.json",
       "last_changed_at": "2026-09-15T17:35:38Z",
       "user_agent_patterns": [
-        "*Applebot*",
-        "*Applebot-Extended*"
+        "*Applebot*"
+      ],
+      "agents": [
+        {
+          "name": "Applebot",
+          "pattern": "*Applebot*",
+          "purpose": "search"
+        }
       ],
       "rdns_patterns": [
         "*.applebot.apple.com"
@@ -3308,6 +3347,28 @@
         "*BingPreview*",
         "*adidxbot*",
         "*MicrosoftPreview*"
+      ],
+      "agents": [
+        {
+          "name": "bingbot",
+          "pattern": "*bingbot*",
+          "purpose": "search"
+        },
+        {
+          "name": "BingPreview",
+          "pattern": "*BingPreview*",
+          "purpose": "search"
+        },
+        {
+          "name": "adidxbot",
+          "pattern": "*adidxbot*",
+          "purpose": "ads"
+        },
+        {
+          "name": "MicrosoftPreview",
+          "pattern": "*MicrosoftPreview*",
+          "purpose": "other"
+        }
       ],
       "rdns_patterns": [
         "msnbot-*.search.msn.com",
@@ -3354,6 +3415,13 @@
       "last_changed_at": "2026-11-25T18:35:47Z",
       "user_agent_patterns": [
         "*ChatGPT-User*"
+      ],
+      "agents": [
+        {
+          "name": "ChatGPT-User",
+          "pattern": "*ChatGPT-User*",
+          "purpose": "ai-assistant"
+        }
       ],
       "rdns_patterns": [],
       "ip_list_authoritative": true,
@@ -3711,6 +3779,23 @@
         "*Claude-User*",
         "*Claude-SearchBot*"
       ],
+      "agents": [
+        {
+          "name": "ClaudeBot",
+          "pattern": "*ClaudeBot*",
+          "purpose": "ai-training"
+        },
+        {
+          "name": "Claude-User",
+          "pattern": "*Claude-User*",
+          "purpose": "ai-assistant"
+        },
+        {
+          "name": "Claude-SearchBot",
+          "pattern": "*Claude-SearchBot*",
+          "purpose": "ai-search"
+        }
+      ],
       "rdns_patterns": [],
       "ip_list_authoritative": true,
       "ipv4": [
@@ -3739,6 +3824,13 @@
       "user_agent_patterns": [
         "*CCBot*"
       ],
+      "agents": [
+        {
+          "name": "CCBot",
+          "pattern": "*CCBot*",
+          "purpose": "other"
+        }
+      ],
       "rdns_patterns": [
         "*.crawl.commoncrawl.org"
       ],
@@ -3761,6 +3853,18 @@
       "user_agent_patterns": [
         "*DuckDuckBot*",
         "*DuckAssistBot*"
+      ],
+      "agents": [
+        {
+          "name": "DuckDuckBot",
+          "pattern": "*DuckDuckBot*",
+          "purpose": "search"
+        },
+        {
+          "name": "DuckAssistBot",
+          "pattern": "*DuckAssistBot*",
+          "purpose": "ai-assistant"
+        }
       ],
       "rdns_patterns": [
         "*.duckduckgo.com"
@@ -4262,6 +4366,13 @@
       "user_agent_patterns": [
         "*GPTBot*"
       ],
+      "agents": [
+        {
+          "name": "GPTBot",
+          "pattern": "*GPTBot*",
+          "purpose": "ai-training"
+        }
+      ],
       "rdns_patterns": [],
       "ip_list_authoritative": true,
       "ipv4": [
@@ -4297,6 +4408,48 @@
         "*Google-Read-Aloud*",
         "*Google-InspectionTool*",
         "*DuplexWeb-Google*"
+      ],
+      "agents": [
+        {
+          "name": "APIs-Google",
+          "pattern": "*APIs-Google*",
+          "purpose": "other"
+        },
+        {
+          "name": "AdsBot-Google",
+          "pattern": "*AdsBot-Google*",
+          "purpose": "ads"
+        },
+        {
+          "name": "AdsBot-Google-Mobile",
+          "pattern": "*AdsBot-Google-Mobile*",
+          "purpose": "ads"
+        },
+        {
+          "name": "Mediapartners-Google",
+          "pattern": "*Mediapartners-Google*",
+          "purpose": "ads"
+        },
+        {
+          "name": "FeedFetcher-Google",
+          "pattern": "*FeedFetcher-Google*",
+          "purpose": "other"
+        },
+        {
+          "name": "Google-Read-Aloud",
+          "pattern": "*Google-Read-Aloud*",
+          "purpose": "other"
+        },
+        {
+          "name": "Google-InspectionTool",
+          "pattern": "*Google-InspectionTool*",
+          "purpose": "other"
+        },
+        {
+          "name": "DuplexWeb-Google",
+          "pattern": "*DuplexWeb-Google*",
+          "purpose": "other"
+        }
       ],
       "rdns_patterns": [
         "*.googlebot.com",
@@ -4351,7 +4504,7 @@
       "last_changed_at": "2026-11-23T17:17:15Z",
       "user_agent_patterns": [
         "*Google-Site-Verification*",
-        "*Google Publisher Center*",
+        "*GoogleProducer*",
         "*Chrome-Lighthouse*",
         "*NotebookLM*",
         "*Google-GeminiNotebook*",
@@ -4360,6 +4513,58 @@
         "*AppEngine-Google*",
         "*Google-Apps-Script*",
         "*Google-Cloud-Tasks*"
+      ],
+      "agents": [
+        {
+          "name": "Google-Site-Verification",
+          "pattern": "*Google-Site-Verification*",
+          "purpose": "other"
+        },
+        {
+          "name": "GoogleProducer",
+          "pattern": "*GoogleProducer*",
+          "purpose": "other"
+        },
+        {
+          "name": "Chrome-Lighthouse",
+          "pattern": "*Chrome-Lighthouse*",
+          "purpose": "other"
+        },
+        {
+          "name": "Google-NotebookLM",
+          "pattern": "*NotebookLM*",
+          "purpose": "ai-assistant"
+        },
+        {
+          "name": "Google-GeminiNotebook",
+          "pattern": "*Google-GeminiNotebook*",
+          "purpose": "ai-assistant"
+        },
+        {
+          "name": "Google-Pinpoint",
+          "pattern": "*Google-Pinpoint*",
+          "purpose": "other"
+        },
+        {
+          "name": "Google-CWS",
+          "pattern": "*Google-CWS*",
+          "purpose": "other"
+        },
+        {
+          "name": "AppEngine-Google",
+          "pattern": "*AppEngine-Google*",
+          "purpose": "other"
+        },
+        {
+          "name": "Google-Apps-Script",
+          "pattern": "*Google-Apps-Script*",
+          "purpose": "other"
+        },
+        {
+          "name": "Google-Cloud-Tasks",
+          "pattern": "*Google-Cloud-Tasks*",
+          "purpose": "other"
+        }
       ],
       "rdns_patterns": [
         "*.google.com",
@@ -4699,6 +4904,13 @@
       "user_agent_patterns": [
         "*Google-Agent*"
       ],
+      "agents": [
+        {
+          "name": "Google-Agent",
+          "pattern": "*Google-Agent*",
+          "purpose": "ai-assistant"
+        }
+      ],
       "rdns_patterns": [
         "*.google.com",
         "*.googleusercontent.com"
@@ -4723,10 +4935,36 @@
       "user_agent_patterns": [
         "*Googlebot*",
         "*Googlebot-Image*",
-        "*Googlebot-News*",
         "*Googlebot-Video*",
         "*Storebot-Google*",
         "*GoogleOther*"
+      ],
+      "agents": [
+        {
+          "name": "Googlebot",
+          "pattern": "*Googlebot*",
+          "purpose": "search"
+        },
+        {
+          "name": "Googlebot-Image",
+          "pattern": "*Googlebot-Image*",
+          "purpose": "search"
+        },
+        {
+          "name": "Googlebot-Video",
+          "pattern": "*Googlebot-Video*",
+          "purpose": "search"
+        },
+        {
+          "name": "Storebot-Google",
+          "pattern": "*Storebot-Google*",
+          "purpose": "other"
+        },
+        {
+          "name": "GoogleOther",
+          "pattern": "*GoogleOther*",
+          "purpose": "other"
+        }
       ],
       "rdns_patterns": [
         "crawl-*.googlebot.com",
@@ -4805,6 +5043,13 @@
       "user_agent_patterns": [
         "*Kagibot*"
       ],
+      "agents": [
+        {
+          "name": "Kagibot",
+          "pattern": "*Kagibot*",
+          "purpose": "search"
+        }
+      ],
       "rdns_patterns": [],
       "ip_list_authoritative": true,
       "ipv4": [
@@ -4825,6 +5070,28 @@
         "*meta-externalfetcher*",
         "*facebookexternalhit*",
         "*FacebookBot*"
+      ],
+      "agents": [
+        {
+          "name": "meta-externalagent",
+          "pattern": "*meta-externalagent*",
+          "purpose": "ai-training"
+        },
+        {
+          "name": "meta-externalfetcher",
+          "pattern": "*meta-externalfetcher*",
+          "purpose": "ai-assistant"
+        },
+        {
+          "name": "facebookexternalhit",
+          "pattern": "*facebookexternalhit*",
+          "purpose": "social"
+        },
+        {
+          "name": "FacebookBot",
+          "pattern": "*FacebookBot*",
+          "purpose": "ai-training"
+        }
       ],
       "rdns_patterns": [
         "*.facebook.com",
@@ -4882,6 +5149,18 @@
         "*MistralAI-User*",
         "*MistralAI-Index*"
       ],
+      "agents": [
+        {
+          "name": "MistralAI-User",
+          "pattern": "*MistralAI-User*",
+          "purpose": "ai-assistant"
+        },
+        {
+          "name": "MistralAI-Index",
+          "pattern": "*MistralAI-Index*",
+          "purpose": "ai-search"
+        }
+      ],
       "rdns_patterns": [],
       "ip_list_authoritative": true,
       "ipv4": [
@@ -4902,6 +5181,13 @@
       "user_agent_patterns": [
         "*MojeekBot*"
       ],
+      "agents": [
+        {
+          "name": "MojeekBot",
+          "pattern": "*MojeekBot*",
+          "purpose": "search"
+        }
+      ],
       "rdns_patterns": [],
       "ip_list_authoritative": true,
       "ipv4": [
@@ -4916,6 +5202,13 @@
       "last_changed_at": "2026-11-23T17:17:15Z",
       "user_agent_patterns": [
         "*OAI-AdsBot*"
+      ],
+      "agents": [
+        {
+          "name": "OAI-AdsBot",
+          "pattern": "*OAI-AdsBot*",
+          "purpose": "ads"
+        }
       ],
       "rdns_patterns": [],
       "ip_list_authoritative": true,
@@ -4932,6 +5225,13 @@
       "last_changed_at": "2026-09-11T05:35:38Z",
       "user_agent_patterns": [
         "*OAI-SearchBot*"
+      ],
+      "agents": [
+        {
+          "name": "OAI-SearchBot",
+          "pattern": "*OAI-SearchBot*",
+          "purpose": "ai-search"
+        }
       ],
       "rdns_patterns": [],
       "ip_list_authoritative": true,
@@ -4984,6 +5284,18 @@
         "*PerplexityBot*",
         "*Perplexity-User*"
       ],
+      "agents": [
+        {
+          "name": "PerplexityBot",
+          "pattern": "*PerplexityBot*",
+          "purpose": "ai-search"
+        },
+        {
+          "name": "Perplexity-User",
+          "pattern": "*Perplexity-User*",
+          "purpose": "ai-assistant"
+        }
+      ],
       "rdns_patterns": [],
       "ip_list_authoritative": true,
       "ipv4": [
@@ -5007,6 +5319,13 @@
       "last_changed_at": "2026-08-21T11:21:36Z",
       "user_agent_patterns": [
         "*SEBot-WA*"
+      ],
+      "agents": [
+        {
+          "name": "SEBot-WA",
+          "pattern": "*SEBot-WA*",
+          "purpose": "seo"
+        }
       ],
       "rdns_patterns": [
         "*.sr-srv.net"
@@ -5052,6 +5371,13 @@
       "last_changed_at": "2026-08-21T11:21:36Z",
       "user_agent_patterns": [
         "*SERankingBacklinksBot*"
+      ],
+      "agents": [
+        {
+          "name": "SERankingBacklinksBot",
+          "pattern": "*SERankingBacklinksBot*",
+          "purpose": "seo"
+        }
       ],
       "rdns_patterns": [
         "*.seranking.com"
@@ -5197,6 +5523,58 @@
         "*YandexNews*",
         "*YandexMedia*",
         "*YandexVideo*"
+      ],
+      "agents": [
+        {
+          "name": "YandexBot",
+          "pattern": "*YandexBot*",
+          "purpose": "search"
+        },
+        {
+          "name": "YandexImages",
+          "pattern": "*YandexImages*",
+          "purpose": "search"
+        },
+        {
+          "name": "YandexMobileBot",
+          "pattern": "*YandexMobileBot*",
+          "purpose": "other"
+        },
+        {
+          "name": "YandexMetrika",
+          "pattern": "*YandexMetrika*",
+          "purpose": "other"
+        },
+        {
+          "name": "YandexAccessibilityBot",
+          "pattern": "*YandexAccessibilityBot*",
+          "purpose": "other"
+        },
+        {
+          "name": "YandexFavicons",
+          "pattern": "*YandexFavicons*",
+          "purpose": "search"
+        },
+        {
+          "name": "YandexMarket",
+          "pattern": "*YandexMarket*",
+          "purpose": "other"
+        },
+        {
+          "name": "YandexNews",
+          "pattern": "*YandexNews*",
+          "purpose": "other"
+        },
+        {
+          "name": "YandexMedia",
+          "pattern": "*YandexMedia*",
+          "purpose": "search"
+        },
+        {
+          "name": "YandexVideo",
+          "pattern": "*YandexVideo*",
+          "purpose": "search"
+        }
       ],
       "rdns_patterns": [
         "*.yandex.ru",
